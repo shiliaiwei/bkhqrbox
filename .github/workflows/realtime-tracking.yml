@@ -1,0 +1,25 @@
+name: Realtime Tracking & Issue Triage
+
+on:
+  issues:
+    types: [opened, labeled]
+  workflow_dispatch:
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Auto-Triage & Acknowledge
+        uses: actions/github-script@v7
+        with:
+          script: |
+            if (context.eventName === 'issues' && context.payload.action === 'opened') {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: 'Thank you for submitting this report to the Soramitsu Bakong KHQR Sandbox tracker. Automated real-time verification has recorded this item for inspection.'
+              });
+            }

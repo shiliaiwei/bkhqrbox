@@ -1,0 +1,2824 @@
+{
+  "version": "1.1.0",
+  "total_assets": 376,
+  "fonts": [
+    {
+      "filename": "inter.ttf",
+      "format": "ttf",
+      "sizeBytes": 803384,
+      "publicPath": "/fonts/inter.ttf",
+      "resourcePath": "resources/fonts/inter.ttf"
+    },
+    {
+      "filename": "nunito_sans_bold.ttf",
+      "format": "ttf",
+      "sizeBytes": 97276,
+      "publicPath": "/fonts/nunito_sans_bold.ttf",
+      "resourcePath": "resources/fonts/nunito_sans_bold.ttf"
+    },
+    {
+      "filename": "nunito_sans_regular.ttf",
+      "format": "ttf",
+      "sizeBytes": 95760,
+      "publicPath": "/fonts/nunito_sans_regular.ttf",
+      "resourcePath": "resources/fonts/nunito_sans_regular.ttf"
+    },
+    {
+      "filename": "sora_bold.otf",
+      "format": "otf",
+      "sizeBytes": 53980,
+      "publicPath": "/fonts/sora_bold.otf",
+      "resourcePath": "resources/fonts/sora_bold.otf"
+    },
+    {
+      "filename": "sora_extra_bold.otf",
+      "format": "otf",
+      "sizeBytes": 54640,
+      "publicPath": "/fonts/sora_extra_bold.otf",
+      "resourcePath": "resources/fonts/sora_extra_bold.otf"
+    },
+    {
+      "filename": "sora_light.otf",
+      "format": "otf",
+      "sizeBytes": 52056,
+      "publicPath": "/fonts/sora_light.otf",
+      "resourcePath": "resources/fonts/sora_light.otf"
+    },
+    {
+      "filename": "sora_regular.otf",
+      "format": "otf",
+      "sizeBytes": 51568,
+      "publicPath": "/fonts/sora_regular.otf",
+      "resourcePath": "resources/fonts/sora_regular.otf"
+    },
+    {
+      "filename": "sora_semi_bold.otf",
+      "format": "otf",
+      "sizeBytes": 53696,
+      "publicPath": "/fonts/sora_semi_bold.otf",
+      "resourcePath": "resources/fonts/sora_semi_bold.otf"
+    }
+  ],
+  "images": {
+    "banking": [
+      {
+        "filename": "card-dragon.svg",
+        "format": "svg",
+        "sizeBytes": 1507,
+        "publicPath": "/backgrounds/card-dragon.svg",
+        "resourcePath": "resources/banking-cards/card-dragon.svg"
+      },
+      {
+        "filename": "card-liberty.svg",
+        "format": "svg",
+        "sizeBytes": 1623,
+        "publicPath": "/backgrounds/card-liberty.svg",
+        "resourcePath": "resources/banking-cards/card-liberty.svg"
+      },
+      {
+        "filename": "cardbanknote.svg",
+        "format": "svg",
+        "sizeBytes": 1356,
+        "publicPath": "/backgrounds/cardbanknote.svg",
+        "resourcePath": "resources/banking-cards/cardbanknote.svg"
+      },
+      {
+        "filename": "currency-khr-flower.png",
+        "format": "png",
+        "sizeBytes": 3698,
+        "publicPath": "/images/banking/currency-khr-flower.png",
+        "resourcePath": "resources/banking-cards/currency-khr-flower.png"
+      },
+      {
+        "filename": "currency-khr-symbol.webp",
+        "format": "webp",
+        "sizeBytes": 1270,
+        "publicPath": "/images/banking/currency-khr-symbol.webp",
+        "resourcePath": "resources/banking-cards/currency-khr-symbol.webp"
+      },
+      {
+        "filename": "currency-khr.webp",
+        "format": "webp",
+        "sizeBytes": 2454,
+        "publicPath": "/images/banking/currency-khr.webp",
+        "resourcePath": "resources/banking-cards/currency-khr.webp"
+      },
+      {
+        "filename": "currency-usd-symbol.webp",
+        "format": "webp",
+        "sizeBytes": 1088,
+        "publicPath": "/images/banking/currency-usd-symbol.webp",
+        "resourcePath": "resources/banking-cards/currency-usd-symbol.webp"
+      },
+      {
+        "filename": "currency-usd.webp",
+        "format": "webp",
+        "sizeBytes": 7678,
+        "publicPath": "/images/banking/currency-usd.webp",
+        "resourcePath": "resources/banking-cards/currency-usd.webp"
+      },
+      {
+        "filename": "ic_khr_ccy.webp",
+        "format": "webp",
+        "sizeBytes": 2454,
+        "publicPath": "/images/banking/ic_khr_ccy.webp",
+        "resourcePath": "resources/banking-cards/ic_khr_ccy.webp"
+      },
+      {
+        "filename": "ic_khr_ccy_1.webp",
+        "format": "webp",
+        "sizeBytes": 2454,
+        "publicPath": "/images/banking/ic_khr_ccy_1.webp",
+        "resourcePath": "resources/banking-cards/ic_khr_ccy_1.webp"
+      },
+      {
+        "filename": "ic_khr_letter.webp",
+        "format": "webp",
+        "sizeBytes": 1270,
+        "publicPath": "/images/banking/ic_khr_letter.webp",
+        "resourcePath": "resources/banking-cards/ic_khr_letter.webp"
+      },
+      {
+        "filename": "ic_khr_letter_1.webp",
+        "format": "webp",
+        "sizeBytes": 1270,
+        "publicPath": "/images/banking/ic_khr_letter_1.webp",
+        "resourcePath": "resources/banking-cards/ic_khr_letter_1.webp"
+      },
+      {
+        "filename": "ic_pka_khr.png",
+        "format": "png",
+        "sizeBytes": 3698,
+        "publicPath": "/images/banking/ic_pka_khr.png",
+        "resourcePath": "resources/banking-cards/ic_pka_khr.png"
+      },
+      {
+        "filename": "ic_pka_khr_1.png",
+        "format": "png",
+        "sizeBytes": 3698,
+        "publicPath": "/images/banking/ic_pka_khr_1.png",
+        "resourcePath": "resources/banking-cards/ic_pka_khr_1.png"
+      },
+      {
+        "filename": "ic_usd_ccy.webp",
+        "format": "webp",
+        "sizeBytes": 7678,
+        "publicPath": "/images/banking/ic_usd_ccy.webp",
+        "resourcePath": "resources/banking-cards/ic_usd_ccy.webp"
+      },
+      {
+        "filename": "ic_usd_ccy_1.webp",
+        "format": "webp",
+        "sizeBytes": 7678,
+        "publicPath": "/images/banking/ic_usd_ccy_1.webp",
+        "resourcePath": "resources/banking-cards/ic_usd_ccy_1.webp"
+      },
+      {
+        "filename": "ic_usd_letter.webp",
+        "format": "webp",
+        "sizeBytes": 1088,
+        "publicPath": "/images/banking/ic_usd_letter.webp",
+        "resourcePath": "resources/banking-cards/ic_usd_letter.webp"
+      },
+      {
+        "filename": "ic_usd_letter_1.webp",
+        "format": "webp",
+        "sizeBytes": 1088,
+        "publicPath": "/images/banking/ic_usd_letter_1.webp",
+        "resourcePath": "resources/banking-cards/ic_usd_letter_1.webp"
+      }
+    ],
+    "coaches": [
+      {
+        "filename": "coach_avatar_Anna.png",
+        "format": "png",
+        "sizeBytes": 28694,
+        "publicPath": "/images/coaches/coach_avatar_Anna.png",
+        "resourcePath": "resources/coaches/coach_avatar_Anna.png"
+      },
+      {
+        "filename": "coach_avatar_Ben.png",
+        "format": "png",
+        "sizeBytes": 52824,
+        "publicPath": "/images/coaches/coach_avatar_Ben.png",
+        "resourcePath": "resources/coaches/coach_avatar_Ben.png"
+      },
+      {
+        "filename": "coach_avatar_Canty.png",
+        "format": "png",
+        "sizeBytes": 32302,
+        "publicPath": "/images/coaches/coach_avatar_Canty.png",
+        "resourcePath": "resources/coaches/coach_avatar_Canty.png"
+      },
+      {
+        "filename": "coach_avatar_Danny.png",
+        "format": "png",
+        "sizeBytes": 27420,
+        "publicPath": "/images/coaches/coach_avatar_Danny.png",
+        "resourcePath": "resources/coaches/coach_avatar_Danny.png"
+      },
+      {
+        "filename": "coach_avatar_Dante.png",
+        "format": "png",
+        "sizeBytes": 27226,
+        "publicPath": "/images/coaches/coach_avatar_Dante.png",
+        "resourcePath": "resources/coaches/coach_avatar_Dante.png"
+      },
+      {
+        "filename": "coach_avatar_David.png",
+        "format": "png",
+        "sizeBytes": 27095,
+        "publicPath": "/images/coaches/coach_avatar_David.png",
+        "resourcePath": "resources/coaches/coach_avatar_David.png"
+      },
+      {
+        "filename": "coach_avatar_Hikaru.png",
+        "format": "png",
+        "sizeBytes": 45939,
+        "publicPath": "/images/coaches/coach_avatar_Hikaru.png",
+        "resourcePath": "resources/coaches/coach_avatar_Hikaru.png"
+      },
+      {
+        "filename": "coach_avatar_Judit.png",
+        "format": "png",
+        "sizeBytes": 43321,
+        "publicPath": "/images/coaches/coach_avatar_Judit.png",
+        "resourcePath": "resources/coaches/coach_avatar_Judit.png"
+      },
+      {
+        "filename": "coach_avatar_Levy.png",
+        "format": "png",
+        "sizeBytes": 29332,
+        "publicPath": "/images/coaches/coach_avatar_Levy.png",
+        "resourcePath": "resources/coaches/coach_avatar_Levy.png"
+      },
+      {
+        "filename": "coach_avatar_Mae.png",
+        "format": "png",
+        "sizeBytes": 26521,
+        "publicPath": "/images/coaches/coach_avatar_Mae.png",
+        "resourcePath": "resources/coaches/coach_avatar_Mae.png"
+      },
+      {
+        "filename": "coach_avatar_Magnus.png",
+        "format": "png",
+        "sizeBytes": 29328,
+        "publicPath": "/images/coaches/coach_avatar_Magnus.png",
+        "resourcePath": "resources/coaches/coach_avatar_Magnus.png"
+      },
+      {
+        "filename": "coach_avatar_Nadia.png",
+        "format": "png",
+        "sizeBytes": 28131,
+        "publicPath": "/images/coaches/coach_avatar_Nadia.png",
+        "resourcePath": "resources/coaches/coach_avatar_Nadia.png"
+      },
+      {
+        "filename": "coach_avatar_Tania.png",
+        "format": "png",
+        "sizeBytes": 31628,
+        "publicPath": "/images/coaches/coach_avatar_Tania.png",
+        "resourcePath": "resources/coaches/coach_avatar_Tania.png"
+      },
+      {
+        "filename": "coach_avatar_Vishy.png",
+        "format": "png",
+        "sizeBytes": 29418,
+        "publicPath": "/images/coaches/coach_avatar_Vishy.png",
+        "resourcePath": "resources/coaches/coach_avatar_Vishy.png"
+      },
+      {
+        "filename": "coach_icon_Anna.png",
+        "format": "png",
+        "sizeBytes": 10373,
+        "publicPath": "/images/coaches/coach_icon_Anna.png",
+        "resourcePath": "resources/coaches/coach_icon_Anna.png"
+      },
+      {
+        "filename": "coach_icon_Ben.png",
+        "format": "png",
+        "sizeBytes": 9711,
+        "publicPath": "/images/coaches/coach_icon_Ben.png",
+        "resourcePath": "resources/coaches/coach_icon_Ben.png"
+      },
+      {
+        "filename": "coach_icon_Canty.png",
+        "format": "png",
+        "sizeBytes": 10193,
+        "publicPath": "/images/coaches/coach_icon_Canty.png",
+        "resourcePath": "resources/coaches/coach_icon_Canty.png"
+      },
+      {
+        "filename": "coach_icon_Danny.png",
+        "format": "png",
+        "sizeBytes": 8945,
+        "publicPath": "/images/coaches/coach_icon_Danny.png",
+        "resourcePath": "resources/coaches/coach_icon_Danny.png"
+      },
+      {
+        "filename": "coach_icon_Dante.png",
+        "format": "png",
+        "sizeBytes": 9176,
+        "publicPath": "/images/coaches/coach_icon_Dante.png",
+        "resourcePath": "resources/coaches/coach_icon_Dante.png"
+      },
+      {
+        "filename": "coach_icon_David.png",
+        "format": "png",
+        "sizeBytes": 11240,
+        "publicPath": "/images/coaches/coach_icon_David.png",
+        "resourcePath": "resources/coaches/coach_icon_David.png"
+      },
+      {
+        "filename": "coach_icon_Hikaru.png",
+        "format": "png",
+        "sizeBytes": 10509,
+        "publicPath": "/images/coaches/coach_icon_Hikaru.png",
+        "resourcePath": "resources/coaches/coach_icon_Hikaru.png"
+      },
+      {
+        "filename": "coach_icon_Judit.png",
+        "format": "png",
+        "sizeBytes": 10739,
+        "publicPath": "/images/coaches/coach_icon_Judit.png",
+        "resourcePath": "resources/coaches/coach_icon_Judit.png"
+      },
+      {
+        "filename": "coach_icon_Levy.png",
+        "format": "png",
+        "sizeBytes": 10629,
+        "publicPath": "/images/coaches/coach_icon_Levy.png",
+        "resourcePath": "resources/coaches/coach_icon_Levy.png"
+      },
+      {
+        "filename": "coach_icon_Mae.png",
+        "format": "png",
+        "sizeBytes": 9796,
+        "publicPath": "/images/coaches/coach_icon_Mae.png",
+        "resourcePath": "resources/coaches/coach_icon_Mae.png"
+      },
+      {
+        "filename": "coach_icon_Magnus.png",
+        "format": "png",
+        "sizeBytes": 10775,
+        "publicPath": "/images/coaches/coach_icon_Magnus.png",
+        "resourcePath": "resources/coaches/coach_icon_Magnus.png"
+      },
+      {
+        "filename": "coach_icon_Nadia.png",
+        "format": "png",
+        "sizeBytes": 9519,
+        "publicPath": "/images/coaches/coach_icon_Nadia.png",
+        "resourcePath": "resources/coaches/coach_icon_Nadia.png"
+      },
+      {
+        "filename": "coach_icon_Tania.png",
+        "format": "png",
+        "sizeBytes": 9535,
+        "publicPath": "/images/coaches/coach_icon_Tania.png",
+        "resourcePath": "resources/coaches/coach_icon_Tania.png"
+      },
+      {
+        "filename": "coach_icon_Vishy.png",
+        "format": "png",
+        "sizeBytes": 8793,
+        "publicPath": "/images/coaches/coach_icon_Vishy.png",
+        "resourcePath": "resources/coaches/coach_icon_Vishy.png"
+      }
+    ],
+    "avatars": [
+      {
+        "filename": "Abdusattorov-05640e16-b77c-11ec-8c70-f91b566f6c4c.png",
+        "format": "png",
+        "sizeBytes": 20200,
+        "publicPath": "/images/avatars/Abdusattorov-05640e16-b77c-11ec-8c70-f91b566f6c4c.png",
+        "resourcePath": "resources/avatars/Abdusattorov-05640e16-b77c-11ec-8c70-f91b566f6c4c.png"
+      },
+      {
+        "filename": "Aerial Powers-811d9ab4-1b8c-11f0-86ce-efd0265768a6.png",
+        "format": "png",
+        "sizeBytes": 13023,
+        "publicPath": "/images/avatars/Aerial Powers-811d9ab4-1b8c-11f0-86ce-efd0265768a6.png",
+        "resourcePath": "resources/avatars/Aerial Powers-811d9ab4-1b8c-11f0-86ce-efd0265768a6.png"
+      },
+      {
+        "filename": "Ahmed-d1fb96aa-8a5c-11ea-ab59-13a89982e703.png",
+        "format": "png",
+        "sizeBytes": 17843,
+        "publicPath": "/images/avatars/Ahmed-d1fb96aa-8a5c-11ea-ab59-13a89982e703.png",
+        "resourcePath": "resources/avatars/Ahmed-d1fb96aa-8a5c-11ea-ab59-13a89982e703.png"
+      },
+      {
+        "filename": "Alexander-e9008f72-8a5c-11ea-818d-6577049edf35.png",
+        "format": "png",
+        "sizeBytes": 15036,
+        "publicPath": "/images/avatars/Alexander-e9008f72-8a5c-11ea-818d-6577049edf35.png",
+        "resourcePath": "resources/avatars/Alexander-e9008f72-8a5c-11ea-818d-6577049edf35.png"
+      },
+      {
+        "filename": "Alexandra-00950078-8a5d-11ea-81d7-274863e26784.png",
+        "format": "png",
+        "sizeBytes": 21076,
+        "publicPath": "/images/avatars/Alexandra-00950078-8a5d-11ea-81d7-274863e26784.png",
+        "resourcePath": "resources/avatars/Alexandra-00950078-8a5d-11ea-81d7-274863e26784.png"
+      },
+      {
+        "filename": "Ali-210b2da6-8a5c-11ea-a016-ff6605a502f5.png",
+        "format": "png",
+        "sizeBytes": 11637,
+        "publicPath": "/images/avatars/Ali-210b2da6-8a5c-11ea-a016-ff6605a502f5.png",
+        "resourcePath": "resources/avatars/Ali-210b2da6-8a5c-11ea-a016-ff6605a502f5.png"
+      },
+      {
+        "filename": "Aman-8a90a010-4a1b-11eb-b75a-fd0693079b20.png",
+        "format": "png",
+        "sizeBytes": 19465,
+        "publicPath": "/images/avatars/Aman-8a90a010-4a1b-11eb-b75a-fd0693079b20.png",
+        "resourcePath": "resources/avatars/Aman-8a90a010-4a1b-11eb-b75a-fd0693079b20.png"
+      },
+      {
+        "filename": "Andrea-e40e1158-495e-11eb-9512-bff44ac29a21.png",
+        "format": "png",
+        "sizeBytes": 22197,
+        "publicPath": "/images/avatars/Andrea-e40e1158-495e-11eb-9512-bff44ac29a21.png",
+        "resourcePath": "resources/avatars/Andrea-e40e1158-495e-11eb-9512-bff44ac29a21.png"
+      },
+      {
+        "filename": "Anna Cramling-cb0c0148-7ae5-11eb-85e1-cf583a3a9b5a.png",
+        "format": "png",
+        "sizeBytes": 22854,
+        "publicPath": "/images/avatars/Anna Cramling-cb0c0148-7ae5-11eb-85e1-cf583a3a9b5a.png",
+        "resourcePath": "resources/avatars/Anna Cramling-cb0c0148-7ae5-11eb-85e1-cf583a3a9b5a.png"
+      },
+      {
+        "filename": "Anna Muzychuk-f55ff4fa-c38a-11ed-95f2-6b0e117ebaef.png",
+        "format": "png",
+        "sizeBytes": 19767,
+        "publicPath": "/images/avatars/Anna Muzychuk-f55ff4fa-c38a-11ed-95f2-6b0e117ebaef.png",
+        "resourcePath": "resources/avatars/Anna Muzychuk-f55ff4fa-c38a-11ed-95f2-6b0e117ebaef.png"
+      },
+      {
+        "filename": "Anna-63c66948-3421-11eb-9c89-eb93ce2c2f9d.png",
+        "format": "png",
+        "sizeBytes": 15164,
+        "publicPath": "/images/avatars/Anna-63c66948-3421-11eb-9c89-eb93ce2c2f9d.png",
+        "resourcePath": "resources/avatars/Anna-63c66948-3421-11eb-9c89-eb93ce2c2f9d.png"
+      },
+      {
+        "filename": "Antonio-2ae58682-8a5c-11ea-8958-558a4147aa4e.png",
+        "format": "png",
+        "sizeBytes": 12760,
+        "publicPath": "/images/avatars/Antonio-2ae58682-8a5c-11ea-8958-558a4147aa4e.png",
+        "resourcePath": "resources/avatars/Antonio-2ae58682-8a5c-11ea-8958-558a4147aa4e.png"
+      },
+      {
+        "filename": "Arjun-db09a52a-8a5c-11ea-b6a2-0f83b32197ca.png",
+        "format": "png",
+        "sizeBytes": 14910,
+        "publicPath": "/images/avatars/Arjun-db09a52a-8a5c-11ea-b6a2-0f83b32197ca.png",
+        "resourcePath": "resources/avatars/Arjun-db09a52a-8a5c-11ea-b6a2-0f83b32197ca.png"
+      },
+      {
+        "filename": "Aron-7fe6c61a-8a5b-11ea-9b04-3de0f4d0bfd8.png",
+        "format": "png",
+        "sizeBytes": 12729,
+        "publicPath": "/images/avatars/Aron-7fe6c61a-8a5b-11ea-9b04-3de0f4d0bfd8.png",
+        "resourcePath": "resources/avatars/Aron-7fe6c61a-8a5b-11ea-9b04-3de0f4d0bfd8.png"
+      },
+      {
+        "filename": "Aronian-0760a072-ac5a-11eb-9380-0de4effa151c.png",
+        "format": "png",
+        "sizeBytes": 16689,
+        "publicPath": "/images/avatars/Aronian-0760a072-ac5a-11eb-9380-0de4effa151c.png",
+        "resourcePath": "resources/avatars/Aronian-0760a072-ac5a-11eb-9380-0de4effa151c.png"
+      },
+      {
+        "filename": "Arthur-74698998-8a5c-11ea-98d0-b5c16ffc4fbe.png",
+        "format": "png",
+        "sizeBytes": 13880,
+        "publicPath": "/images/avatars/Arthur-74698998-8a5c-11ea-98d0-b5c16ffc4fbe.png",
+        "resourcePath": "resources/avatars/Arthur-74698998-8a5c-11ea-98d0-b5c16ffc4fbe.png"
+      },
+      {
+        "filename": "Azeez-d648779c-8a5b-11ea-b214-b5771e1306c2.png",
+        "format": "png",
+        "sizeBytes": 14660,
+        "publicPath": "/images/avatars/Azeez-d648779c-8a5b-11ea-b214-b5771e1306c2.png",
+        "resourcePath": "resources/avatars/Azeez-d648779c-8a5b-11ea-b214-b5771e1306c2.png"
+      },
+      {
+        "filename": "Bartosz-fd5fc976-d2d4-11eb-8257-fb9bd2c70bb9.png",
+        "format": "png",
+        "sizeBytes": 16234,
+        "publicPath": "/images/avatars/Bartosz-fd5fc976-d2d4-11eb-8257-fb9bd2c70bb9.png",
+        "resourcePath": "resources/avatars/Bartosz-fd5fc976-d2d4-11eb-8257-fb9bd2c70bb9.png"
+      },
+      {
+        "filename": "Ben Finegold-d177558c-dd6b-11ee-ba53-cf4fa1094843.png",
+        "format": "png",
+        "sizeBytes": 31403,
+        "publicPath": "/images/avatars/Ben Finegold-d177558c-dd6b-11ee-ba53-cf4fa1094843.png",
+        "resourcePath": "resources/avatars/Ben Finegold-d177558c-dd6b-11ee-ba53-cf4fa1094843.png"
+      },
+      {
+        "filename": "Bok-8afd41b4-b77c-11ec-96aa-99912aecdc0b.png",
+        "format": "png",
+        "sizeBytes": 15263,
+        "publicPath": "/images/avatars/Bok-8afd41b4-b77c-11ec-96aa-99912aecdc0b.png",
+        "resourcePath": "resources/avatars/Bok-8afd41b4-b77c-11ec-96aa-99912aecdc0b.png"
+      },
+      {
+        "filename": "CDawgVA-08911788-aeff-11ee-a758-2516323053e2.png",
+        "format": "png",
+        "sizeBytes": 20708,
+        "publicPath": "/images/avatars/CDawgVA-08911788-aeff-11ee-a758-2516323053e2.png",
+        "resourcePath": "resources/avatars/CDawgVA-08911788-aeff-11ee-a758-2516323053e2.png"
+      },
+      {
+        "filename": "Canty-3458ffc6-7ad1-11eb-8a8e-5353360b8686.png",
+        "format": "png",
+        "sizeBytes": 15120,
+        "publicPath": "/images/avatars/Canty-3458ffc6-7ad1-11eb-8a8e-5353360b8686.png",
+        "resourcePath": "resources/avatars/Canty-3458ffc6-7ad1-11eb-8a8e-5353360b8686.png"
+      },
+      {
+        "filename": "Capablanca-53454316-960e-11ef-a8a4-757e35099e18.png",
+        "format": "png",
+        "sizeBytes": 12540,
+        "publicPath": "/images/avatars/Capablanca-53454316-960e-11ef-a8a4-757e35099e18.png",
+        "resourcePath": "resources/avatars/Capablanca-53454316-960e-11ef-a8a4-757e35099e18.png"
+      },
+      {
+        "filename": "Charles-a1f8c5e0-8a5c-11ea-880b-3766eb35e95a.png",
+        "format": "png",
+        "sizeBytes": 17380,
+        "publicPath": "/images/avatars/Charles-a1f8c5e0-8a5c-11ea-880b-3766eb35e95a.png",
+        "resourcePath": "resources/avatars/Charles-a1f8c5e0-8a5c-11ea-880b-3766eb35e95a.png"
+      },
+      {
+        "filename": "Chidobe Awuzie-7abc3382-0aaf-11ee-b06d-7fc9d8bef957.png",
+        "format": "png",
+        "sizeBytes": 12896,
+        "publicPath": "/images/avatars/Chidobe Awuzie-7abc3382-0aaf-11ee-b06d-7fc9d8bef957.png",
+        "resourcePath": "resources/avatars/Chidobe Awuzie-7abc3382-0aaf-11ee-b06d-7fc9d8bef957.png"
+      },
+      {
+        "filename": "Christian Pulisic-b4adb018-7a43-11ed-bbf3-efbc88fdef24.png",
+        "format": "png",
+        "sizeBytes": 16623,
+        "publicPath": "/images/avatars/Christian Pulisic-b4adb018-7a43-11ed-bbf3-efbc88fdef24.png",
+        "resourcePath": "resources/avatars/Christian Pulisic-b4adb018-7a43-11ed-bbf3-efbc88fdef24.png"
+      },
+      {
+        "filename": "Danny-f5c5d62c-8a5c-11ea-b5c1-f37a942bbe27.png",
+        "format": "png",
+        "sizeBytes": 15130,
+        "publicPath": "/images/avatars/Danny-f5c5d62c-8a5c-11ea-b5c1-f37a942bbe27.png",
+        "resourcePath": "resources/avatars/Danny-f5c5d62c-8a5c-11ea-b5c1-f37a942bbe27.png"
+      },
+      {
+        "filename": "Danya-a17a48f2-4ecc-11eb-ad24-b3185f1c14a7.png",
+        "format": "png",
+        "sizeBytes": 14109,
+        "publicPath": "/images/avatars/Danya-a17a48f2-4ecc-11eb-ad24-b3185f1c14a7.png",
+        "resourcePath": "resources/avatars/Danya-a17a48f2-4ecc-11eb-ad24-b3185f1c14a7.png"
+      },
+      {
+        "filename": "Daryl Morey-33d0dc2a-ed9a-11ed-8084-3f7836adb5f3.png",
+        "format": "png",
+        "sizeBytes": 18160,
+        "publicPath": "/images/avatars/Daryl Morey-33d0dc2a-ed9a-11ed-8084-3f7836adb5f3.png",
+        "resourcePath": "resources/avatars/Daryl Morey-33d0dc2a-ed9a-11ed-8084-3f7836adb5f3.png"
+      },
+      {
+        "filename": "David-1b4dcc34-8a5c-11ea-a781-ad758473f468.png",
+        "format": "png",
+        "sizeBytes": 13537,
+        "publicPath": "/images/avatars/David-1b4dcc34-8a5c-11ea-a781-ad758473f468.png",
+        "resourcePath": "resources/avatars/David-1b4dcc34-8a5c-11ea-a781-ad758473f468.png"
+      },
+      {
+        "filename": "Dawid-22d0e032-ac5b-11eb-89d3-ef5894a62e4f.png",
+        "format": "png",
+        "sizeBytes": 17987,
+        "publicPath": "/images/avatars/Dawid-22d0e032-ac5b-11eb-89d3-ef5894a62e4f.png",
+        "resourcePath": "resources/avatars/Dawid-22d0e032-ac5b-11eb-89d3-ef5894a62e4f.png"
+      },
+      {
+        "filename": "Devon-96c2e64e-8a5a-11ea-9cd4-030513c03dc1.png",
+        "format": "png",
+        "sizeBytes": 15957,
+        "publicPath": "/images/avatars/Devon-96c2e64e-8a5a-11ea-9cd4-030513c03dc1.png",
+        "resourcePath": "resources/avatars/Devon-96c2e64e-8a5a-11ea-9cd4-030513c03dc1.png"
+      },
+      {
+        "filename": "Diana-39e70452-0a9b-11f0-ac99-a1e15946b77b.png",
+        "format": "png",
+        "sizeBytes": 6379,
+        "publicPath": "/images/avatars/Diana-39e70452-0a9b-11f0-ac99-a1e15946b77b.png",
+        "resourcePath": "resources/avatars/Diana-39e70452-0a9b-11f0-ac99-a1e15946b77b.png"
+      },
+      {
+        "filename": "Ding Liren-ae23994c-d330-11ed-b694-0b48dafff0d7.png",
+        "format": "png",
+        "sizeBytes": 16606,
+        "publicPath": "/images/avatars/Ding Liren-ae23994c-d330-11ed-b694-0b48dafff0d7.png",
+        "resourcePath": "resources/avatars/Ding Liren-ae23994c-d330-11ed-b694-0b48dafff0d7.png"
+      },
+      {
+        "filename": "Drue Tranquill-660b0600-a763-11ef-a9e2-5bb136eaab61.png",
+        "format": "png",
+        "sizeBytes": 13054,
+        "publicPath": "/images/avatars/Drue Tranquill-660b0600-a763-11ef-a9e2-5bb136eaab61.png",
+        "resourcePath": "resources/avatars/Drue Tranquill-660b0600-a763-11ef-a9e2-5bb136eaab61.png"
+      },
+      {
+        "filename": "El Deplorable-3fdff2e0-af09-11ee-835d-435e02cc0ce2.png",
+        "format": "png",
+        "sizeBytes": 25114,
+        "publicPath": "/images/avatars/El Deplorable-3fdff2e0-af09-11ee-835d-435e02cc0ce2.png",
+        "resourcePath": "resources/avatars/El Deplorable-3fdff2e0-af09-11ee-835d-435e02cc0ce2.png"
+      },
+      {
+        "filename": "Elani-c62b39f4-8a5a-11ea-bbe4-51aff3d2d9d5.png",
+        "format": "png",
+        "sizeBytes": 10310,
+        "publicPath": "/images/avatars/Elani-c62b39f4-8a5a-11ea-bbe4-51aff3d2d9d5.png",
+        "resourcePath": "resources/avatars/Elani-c62b39f4-8a5a-11ea-bbe4-51aff3d2d9d5.png"
+      },
+      {
+        "filename": "Elena-f3f81072-8a5b-11ea-8cb3-a5c17a0db466.png",
+        "format": "png",
+        "sizeBytes": 14689,
+        "publicPath": "/images/avatars/Elena-f3f81072-8a5b-11ea-8cb3-a5c17a0db466.png",
+        "resourcePath": "resources/avatars/Elena-f3f81072-8a5b-11ea-8cb3-a5c17a0db466.png"
+      },
+      {
+        "filename": "Emir-c7261c74-8a5b-11ea-aada-85bc72dea6a4.png",
+        "format": "png",
+        "sizeBytes": 15048,
+        "publicPath": "/images/avatars/Emir-c7261c74-8a5b-11ea-aada-85bc72dea6a4.png",
+        "resourcePath": "resources/avatars/Emir-c7261c74-8a5b-11ea-aada-85bc72dea6a4.png"
+      },
+      {
+        "filename": "Eric-25921980-4a13-11eb-ade1-435fc71bc7e3.png",
+        "format": "png",
+        "sizeBytes": 15315,
+        "publicPath": "/images/avatars/Eric-25921980-4a13-11eb-ade1-435fc71bc7e3.png",
+        "resourcePath": "resources/avatars/Eric-25921980-4a13-11eb-ade1-435fc71bc7e3.png"
+      },
+      {
+        "filename": "Fabian-b1cb4ada-8a5a-11ea-9ec9-c74e0c8f68cb.png",
+        "format": "png",
+        "sizeBytes": 10742,
+        "publicPath": "/images/avatars/Fabian-b1cb4ada-8a5a-11ea-9ec9-c74e0c8f68cb.png",
+        "resourcePath": "resources/avatars/Fabian-b1cb4ada-8a5a-11ea-9ec9-c74e0c8f68cb.png"
+      },
+      {
+        "filename": "Fabiano-8bd3b42e-3e73-11ec-9e5e-7994d5ba605a.png",
+        "format": "png",
+        "sizeBytes": 16686,
+        "publicPath": "/images/avatars/Fabiano-8bd3b42e-3e73-11ec-9e5e-7994d5ba605a.png",
+        "resourcePath": "resources/avatars/Fabiano-8bd3b42e-3e73-11ec-9e5e-7994d5ba605a.png"
+      },
+      {
+        "filename": "Fatima-a770412e-8a5c-11ea-b86a-a7455e4b910d.png",
+        "format": "png",
+        "sizeBytes": 15095,
+        "publicPath": "/images/avatars/Fatima-a770412e-8a5c-11ea-b86a-a7455e4b910d.png",
+        "resourcePath": "resources/avatars/Fatima-a770412e-8a5c-11ea-b86a-a7455e4b910d.png"
+      },
+      {
+        "filename": "Filip-c02f3762-8a5a-11ea-b8d1-6581722e183f.png",
+        "format": "png",
+        "sizeBytes": 16140,
+        "publicPath": "/images/avatars/Filip-c02f3762-8a5a-11ea-b8d1-6581722e183f.png",
+        "resourcePath": "resources/avatars/Filip-c02f3762-8a5a-11ea-b8d1-6581722e183f.png"
+      },
+      {
+        "filename": "Francis-df6633b8-8a5c-11ea-b668-8704520de7fd.png",
+        "format": "png",
+        "sizeBytes": 15989,
+        "publicPath": "/images/avatars/Francis-df6633b8-8a5c-11ea-b668-8704520de7fd.png",
+        "resourcePath": "resources/avatars/Francis-df6633b8-8a5c-11ea-b668-8704520de7fd.png"
+      },
+      {
+        "filename": "FunMasterMike-97d51ba6-7aeb-11eb-a078-9f74b5fc23ac.png",
+        "format": "png",
+        "sizeBytes": 18479,
+        "publicPath": "/images/avatars/FunMasterMike-97d51ba6-7aeb-11eb-a078-9f74b5fc23ac.png",
+        "resourcePath": "resources/avatars/FunMasterMike-97d51ba6-7aeb-11eb-a078-9f74b5fc23ac.png"
+      },
+      {
+        "filename": "Fundy-b0d91980-17ef-11ec-b53d-b39dc8096b53.png",
+        "format": "png",
+        "sizeBytes": 16943,
+        "publicPath": "/images/avatars/Fundy-b0d91980-17ef-11ec-b53d-b39dc8096b53.png",
+        "resourcePath": "resources/avatars/Fundy-b0d91980-17ef-11ec-b53d-b39dc8096b53.png"
+      },
+      {
+        "filename": "Giri-3e6ba996-3431-11eb-a088-ddab1bbcca40.png",
+        "format": "png",
+        "sizeBytes": 14280,
+        "publicPath": "/images/avatars/Giri-3e6ba996-3431-11eb-a088-ddab1bbcca40.png",
+        "resourcePath": "resources/avatars/Giri-3e6ba996-3431-11eb-a088-ddab1bbcca40.png"
+      },
+      {
+        "filename": "Gordon Hayward-7d638cec-e5f8-11ed-b31b-b10e4e10b9f8.png",
+        "format": "png",
+        "sizeBytes": 17566,
+        "publicPath": "/images/avatars/Gordon Hayward-7d638cec-e5f8-11ed-b31b-b10e4e10b9f8.png",
+        "resourcePath": "resources/avatars/Gordon Hayward-7d638cec-e5f8-11ed-b31b-b10e4e10b9f8.png"
+      },
+      {
+        "filename": "GothamChess-b1e01f52-30e8-11eb-abb2-43bc29dd534e.png",
+        "format": "png",
+        "sizeBytes": 18277,
+        "publicPath": "/images/avatars/GothamChess-b1e01f52-30e8-11eb-abb2-43bc29dd534e.png",
+        "resourcePath": "resources/avatars/GothamChess-b1e01f52-30e8-11eb-abb2-43bc29dd534e.png"
+      },
+      {
+        "filename": "Hafu-4e3a1f30-ac57-11eb-a80c-53d6fd0d0672.png",
+        "format": "png",
+        "sizeBytes": 15234,
+        "publicPath": "/images/avatars/Hafu-4e3a1f30-ac57-11eb-a80c-53d6fd0d0672.png",
+        "resourcePath": "resources/avatars/Hafu-4e3a1f30-ac57-11eb-a80c-53d6fd0d0672.png"
+      },
+      {
+        "filename": "Hans-d0464090-8a5b-11ea-aa77-0f6eaa220abf.png",
+        "format": "png",
+        "sizeBytes": 15747,
+        "publicPath": "/images/avatars/Hans-d0464090-8a5b-11ea-aa77-0f6eaa220abf.png",
+        "resourcePath": "resources/avatars/Hans-d0464090-8a5b-11ea-aa77-0f6eaa220abf.png"
+      },
+      {
+        "filename": "HarryMack-659c6a6c-11aa-11ec-97fe-4334f15d97b6.png",
+        "format": "png",
+        "sizeBytes": 14371,
+        "publicPath": "/images/avatars/HarryMack-659c6a6c-11aa-11ec-97fe-4334f15d97b6.png",
+        "resourcePath": "resources/avatars/HarryMack-659c6a6c-11aa-11ec-97fe-4334f15d97b6.png"
+      },
+      {
+        "filename": "Hikaru-faffe24a-8a5c-11ea-8907-3d0e2fea8a28.png",
+        "format": "png",
+        "sizeBytes": 28104,
+        "publicPath": "/images/avatars/Hikaru-faffe24a-8a5c-11ea-8907-3d0e2fea8a28.png",
+        "resourcePath": "resources/avatars/Hikaru-faffe24a-8a5c-11ea-8907-3d0e2fea8a28.png"
+      },
+      {
+        "filename": "Hou Yifan-5aab83ac-c38a-11ed-ba99-e5a0220a73ba.png",
+        "format": "png",
+        "sizeBytes": 21795,
+        "publicPath": "/images/avatars/Hou Yifan-5aab83ac-c38a-11ed-ba99-e5a0220a73ba.png",
+        "resourcePath": "resources/avatars/Hou Yifan-5aab83ac-c38a-11ed-ba99-e5a0220a73ba.png"
+      },
+      {
+        "filename": "IamCristinini-5599b26c-af07-11ee-86cc-9f60f1ea0ce9.png",
+        "format": "png",
+        "sizeBytes": 23328,
+        "publicPath": "/images/avatars/IamCristinini-5599b26c-af07-11ee-86cc-9f60f1ea0ce9.png",
+        "resourcePath": "resources/avatars/IamCristinini-5599b26c-af07-11ee-86cc-9f60f1ea0ce9.png"
+      },
+      {
+        "filename": "Ian-6756dcc0-3e73-11ec-86ee-79b6cb69a366.png",
+        "format": "png",
+        "sizeBytes": 15955,
+        "publicPath": "/images/avatars/Ian-6756dcc0-3e73-11ec-86ee-79b6cb69a366.png",
+        "resourcePath": "resources/avatars/Ian-6756dcc0-3e73-11ec-86ee-79b6cb69a366.png"
+      },
+      {
+        "filename": "Irina Krush-c2623756-c38b-11ed-8f4e-19e61941f4de.png",
+        "format": "png",
+        "sizeBytes": 25517,
+        "publicPath": "/images/avatars/Irina Krush-c2623756-c38b-11ed-8f4e-19e61941f4de.png",
+        "resourcePath": "resources/avatars/Irina Krush-c2623756-c38b-11ed-8f4e-19e61941f4de.png"
+      },
+      {
+        "filename": "Isabel-602f4508-8a5c-11ea-9365-f16c332a1c43.png",
+        "format": "png",
+        "sizeBytes": 13245,
+        "publicPath": "/images/avatars/Isabel-602f4508-8a5c-11ea-9365-f16c332a1c43.png",
+        "resourcePath": "resources/avatars/Isabel-602f4508-8a5c-11ea-9365-f16c332a1c43.png"
+      },
+      {
+        "filename": "Isla-7dac4d24-8a5c-11ea-a8d0-25a57db3c188.png",
+        "format": "png",
+        "sizeBytes": 12242,
+        "publicPath": "/images/avatars/Isla-7dac4d24-8a5c-11ea-a8d0-25a57db3c188.png",
+        "resourcePath": "resources/avatars/Isla-7dac4d24-8a5c-11ea-a8d0-25a57db3c188.png"
+      },
+      {
+        "filename": "Jade-0e71f580-8a5c-11ea-8bce-172f6bd1af51.png",
+        "format": "png",
+        "sizeBytes": 16375,
+        "publicPath": "/images/avatars/Jade-0e71f580-8a5c-11ea-8bce-172f6bd1af51.png",
+        "resourcePath": "resources/avatars/Jade-0e71f580-8a5c-11ea-8bce-172f6bd1af51.png"
+      },
+      {
+        "filename": "Jaime Jaquez Jr.-0795ae7a-8d57-11ef-a211-33b52545b994.png",
+        "format": "png",
+        "sizeBytes": 13611,
+        "publicPath": "/images/avatars/Jaime Jaquez Jr.-0795ae7a-8d57-11ef-a211-33b52545b994.png",
+        "resourcePath": "resources/avatars/Jaime Jaquez Jr.-0795ae7a-8d57-11ef-a211-33b52545b994.png"
+      },
+      {
+        "filename": "Janjay-79d79290-8a5b-11ea-a7cb-a9719a339cd3.png",
+        "format": "png",
+        "sizeBytes": 14581,
+        "publicPath": "/images/avatars/Janjay-79d79290-8a5b-11ea-a7cb-a9719a339cd3.png",
+        "resourcePath": "resources/avatars/Janjay-79d79290-8a5b-11ea-a7cb-a9719a339cd3.png"
+      },
+      {
+        "filename": "Jaylen Brown-8bba220a-2a41-11ee-865c-87c702c2364f.png",
+        "format": "png",
+        "sizeBytes": 22550,
+        "publicPath": "/images/avatars/Jaylen Brown-8bba220a-2a41-11ee-865c-87c702c2364f.png",
+        "resourcePath": "resources/avatars/Jaylen Brown-8bba220a-2a41-11ee-865c-87c702c2364f.png"
+      },
+      {
+        "filename": "Jimmy-f900bba2-8a59-11ea-9b00-77e384ff7d49.png",
+        "format": "png",
+        "sizeBytes": 14396,
+        "publicPath": "/images/avatars/Jimmy-f900bba2-8a59-11ea-9b00-77e384ff7d49.png",
+        "resourcePath": "resources/avatars/Jimmy-f900bba2-8a59-11ea-9b00-77e384ff7d49.png"
+      },
+      {
+        "filename": "Joel-4a5da9cc-8a5c-11ea-aad2-7388bc7000a8.png",
+        "format": "png",
+        "sizeBytes": 13031,
+        "publicPath": "/images/avatars/Joel-4a5da9cc-8a5c-11ea-aad2-7388bc7000a8.png",
+        "resourcePath": "resources/avatars/Joel-4a5da9cc-8a5c-11ea-aad2-7388bc7000a8.png"
+      },
+      {
+        "filename": "Joey Votto-ceedda5c-fa40-11ed-ab90-e74b6da157d0.png",
+        "format": "png",
+        "sizeBytes": 11616,
+        "publicPath": "/images/avatars/Joey Votto-ceedda5c-fa40-11ed-ab90-e74b6da157d0.png",
+        "resourcePath": "resources/avatars/Joey Votto-ceedda5c-fa40-11ed-ab90-e74b6da157d0.png"
+      },
+      {
+        "filename": "Jonas-7939dfa4-8a5c-11ea-a657-a96802def29e.png",
+        "format": "png",
+        "sizeBytes": 15268,
+        "publicPath": "/images/avatars/Jonas-7939dfa4-8a5c-11ea-a657-a96802def29e.png",
+        "resourcePath": "resources/avatars/Jonas-7939dfa4-8a5c-11ea-a657-a96802def29e.png"
+      },
+      {
+        "filename": "Juan-b8e0dfc4-8a5a-11ea-91b7-4d4878d1bdec.png",
+        "format": "png",
+        "sizeBytes": 12643,
+        "publicPath": "/images/avatars/Juan-b8e0dfc4-8a5a-11ea-91b7-4d4878d1bdec.png",
+        "resourcePath": "resources/avatars/Juan-b8e0dfc4-8a5a-11ea-91b7-4d4878d1bdec.png"
+      },
+      {
+        "filename": "Judit Polgar-4da02e68-c382-11ed-9b6f-85a9eb15cdf7.png",
+        "format": "png",
+        "sizeBytes": 21941,
+        "publicPath": "/images/avatars/Judit Polgar-4da02e68-c382-11ed-9b6f-85a9eb15cdf7.png",
+        "resourcePath": "resources/avatars/Judit Polgar-4da02e68-c382-11ed-9b6f-85a9eb15cdf7.png"
+      },
+      {
+        "filename": "Julia-8ba4de5a-8a5c-11ea-9950-89750a5b6072.png",
+        "format": "png",
+        "sizeBytes": 11275,
+        "publicPath": "/images/avatars/Julia-8ba4de5a-8a5c-11ea-9950-89750a5b6072.png",
+        "resourcePath": "resources/avatars/Julia-8ba4de5a-8a5c-11ea-9950-89750a5b6072.png"
+      },
+      {
+        "filename": "Julien Song-e6973d90-3ff0-11f0-a1c2-e3c5dd39afa4.png",
+        "format": "png",
+        "sizeBytes": 11379,
+        "publicPath": "/images/avatars/Julien Song-e6973d90-3ff0-11f0-a1c2-e3c5dd39afa4.png",
+        "resourcePath": "resources/avatars/Julien Song-e6973d90-3ff0-11f0-a1c2-e3c5dd39afa4.png"
+      },
+      {
+        "filename": "Justin Reid-01718494-a763-11ef-93bc-e785465d751e.png",
+        "format": "png",
+        "sizeBytes": 15102,
+        "publicPath": "/images/avatars/Justin Reid-01718494-a763-11ef-93bc-e785465d751e.png",
+        "resourcePath": "resources/avatars/Justin Reid-01718494-a763-11ef-93bc-e785465d751e.png"
+      },
+      {
+        "filename": "Karim-c2bced0c-8a5b-11ea-9599-814b01ee3c2c.png",
+        "format": "png",
+        "sizeBytes": 11868,
+        "publicPath": "/images/avatars/Karim-c2bced0c-8a5b-11ea-9599-814b01ee3c2c.png",
+        "resourcePath": "resources/avatars/Karim-c2bced0c-8a5b-11ea-9599-814b01ee3c2c.png"
+      },
+      {
+        "filename": "Kevin-32d225de-8a5d-11ea-b2f3-1d52a01fbd67.png",
+        "format": "png",
+        "sizeBytes": 16419,
+        "publicPath": "/images/avatars/Kevin-32d225de-8a5d-11ea-b2f3-1d52a01fbd67.png",
+        "resourcePath": "resources/avatars/Kevin-32d225de-8a5d-11ea-b2f3-1d52a01fbd67.png"
+      },
+      {
+        "filename": "Kosteniuk-0e4109f4-4940-11eb-a509-15ed3d17e66f.png",
+        "format": "png",
+        "sizeBytes": 16988,
+        "publicPath": "/images/avatars/Kosteniuk-0e4109f4-4940-11eb-a509-15ed3d17e66f.png",
+        "resourcePath": "resources/avatars/Kosteniuk-0e4109f4-4940-11eb-a509-15ed3d17e66f.png"
+      },
+      {
+        "filename": "Krikor-29a0e25c-8a5d-11ea-85d8-8d07de423cff.png",
+        "format": "png",
+        "sizeBytes": 13152,
+        "publicPath": "/images/avatars/Krikor-29a0e25c-8a5d-11ea-85d8-8d07de423cff.png",
+        "resourcePath": "resources/avatars/Krikor-29a0e25c-8a5d-11ea-85d8-8d07de423cff.png"
+      },
+      {
+        "filename": "Larry Fitzgerald Jr.-842e5266-08ce-11ee-b094-c769c4cd86b4.png",
+        "format": "png",
+        "sizeBytes": 18293,
+        "publicPath": "/images/avatars/Larry Fitzgerald Jr.-842e5266-08ce-11ee-b094-c769c4cd86b4.png",
+        "resourcePath": "resources/avatars/Larry Fitzgerald Jr.-842e5266-08ce-11ee-b094-c769c4cd86b4.png"
+      },
+      {
+        "filename": "Lasker-454a118a-9611-11ef-85a4-95dfb5c8f3b9.png",
+        "format": "png",
+        "sizeBytes": 7074,
+        "publicPath": "/images/avatars/Lasker-454a118a-9611-11ef-85a4-95dfb5c8f3b9.png",
+        "resourcePath": "resources/avatars/Lasker-454a118a-9611-11ef-85a4-95dfb5c8f3b9.png"
+      },
+      {
+        "filename": "Laura-e14b957a-8a5b-11ea-b5e6-d1abeb75938d.png",
+        "format": "png",
+        "sizeBytes": 17429,
+        "publicPath": "/images/avatars/Laura-e14b957a-8a5b-11ea-b5e6-d1abeb75938d.png",
+        "resourcePath": "resources/avatars/Laura-e14b957a-8a5b-11ea-b5e6-d1abeb75938d.png"
+      },
+      {
+        "filename": "Li-9e37903a-8a5c-11ea-9f38-fb3b18cf7113.png",
+        "format": "png",
+        "sizeBytes": 14700,
+        "publicPath": "/images/avatars/Li-9e37903a-8a5c-11ea-9f38-fb3b18cf7113.png",
+        "resourcePath": "resources/avatars/Li-9e37903a-8a5c-11ea-9f38-fb3b18cf7113.png"
+      },
+      {
+        "filename": "Lorenzo-821804fc-8a5c-11ea-8447-d514c04d9737.png",
+        "format": "png",
+        "sizeBytes": 17830,
+        "publicPath": "/images/avatars/Lorenzo-821804fc-8a5c-11ea-8447-d514c04d9737.png",
+        "resourcePath": "resources/avatars/Lorenzo-821804fc-8a5c-11ea-8447-d514c04d9737.png"
+      },
+      {
+        "filename": "Ludwig-3472467a-619a-11eb-8f91-e9892a43ba12.png",
+        "format": "png",
+        "sizeBytes": 16050,
+        "publicPath": "/images/avatars/Ludwig-3472467a-619a-11eb-8f91-e9892a43ba12.png",
+        "resourcePath": "resources/avatars/Ludwig-3472467a-619a-11eb-8f91-e9892a43ba12.png"
+      },
+      {
+        "filename": "Luison-2dc388c6-8a5d-11ea-a822-3b5816493070.png",
+        "format": "png",
+        "sizeBytes": 16829,
+        "publicPath": "/images/avatars/Luison-2dc388c6-8a5d-11ea-a822-3b5816493070.png",
+        "resourcePath": "resources/avatars/Luison-2dc388c6-8a5d-11ea-a822-3b5816493070.png"
+      },
+      {
+        "filename": "Luk.AI-f7821a7a-abe2-11ed-ac3a-291a91795341.png",
+        "format": "png",
+        "sizeBytes": 22497,
+        "publicPath": "/images/avatars/Luk.AI-f7821a7a-abe2-11ed-ac3a-291a91795341.png",
+        "resourcePath": "resources/avatars/Luk.AI-f7821a7a-abe2-11ed-ac3a-291a91795341.png"
+      },
+      {
+        "filename": "Luke-ecf96dd8-8a5c-11ea-bcde-d35c1471c588.png",
+        "format": "png",
+        "sizeBytes": 13751,
+        "publicPath": "/images/avatars/Luke-ecf96dd8-8a5c-11ea-bcde-d35c1471c588.png",
+        "resourcePath": "resources/avatars/Luke-ecf96dd8-8a5c-11ea-bcde-d35c1471c588.png"
+      },
+      {
+        "filename": "Magnus Carlsen-fc773c3c-5ca3-11ee-960b-2fa00c967982.png",
+        "format": "png",
+        "sizeBytes": 14228,
+        "publicPath": "/images/avatars/Magnus Carlsen-fc773c3c-5ca3-11ee-960b-2fa00c967982.png",
+        "resourcePath": "resources/avatars/Magnus Carlsen-fc773c3c-5ca3-11ee-960b-2fa00c967982.png"
+      },
+      {
+        "filename": "Magnus-fc773c3c-5ca3-11ee-960b-2fa00c967982.png",
+        "format": "png",
+        "sizeBytes": 14228,
+        "publicPath": "/images/avatars/Magnus-fc773c3c-5ca3-11ee-960b-2fa00c967982.png",
+        "resourcePath": "resources/avatars/Magnus-fc773c3c-5ca3-11ee-960b-2fa00c967982.png"
+      },
+      {
+        "filename": "Manuel-affd659c-8a5c-11ea-af24-23a01e44322c.png",
+        "format": "png",
+        "sizeBytes": 12282,
+        "publicPath": "/images/avatars/Manuel-affd659c-8a5c-11ea-af24-23a01e44322c.png",
+        "resourcePath": "resources/avatars/Manuel-affd659c-8a5c-11ea-af24-23a01e44322c.png"
+      },
+      {
+        "filename": "Maria-ee8ff9d8-8a5b-11ea-ad88-f9bb1877a81f.png",
+        "format": "png",
+        "sizeBytes": 17887,
+        "publicPath": "/images/avatars/Maria-ee8ff9d8-8a5b-11ea-ad88-f9bb1877a81f.png",
+        "resourcePath": "resources/avatars/Maria-ee8ff9d8-8a5b-11ea-ad88-f9bb1877a81f.png"
+      },
+      {
+        "filename": "Martin-a6e19caa-8a5a-11ea-b74e-55003725fb61.png",
+        "format": "png",
+        "sizeBytes": 12311,
+        "publicPath": "/images/avatars/Martin-a6e19caa-8a5a-11ea-b74e-55003725fb61.png",
+        "resourcePath": "resources/avatars/Martin-a6e19caa-8a5a-11ea-b74e-55003725fb61.png"
+      },
+      {
+        "filename": "Mateo-2636b818-8a5c-11ea-a681-5717011b704a.png",
+        "format": "png",
+        "sizeBytes": 15923,
+        "publicPath": "/images/avatars/Mateo-2636b818-8a5c-11ea-a681-5717011b704a.png",
+        "resourcePath": "resources/avatars/Mateo-2636b818-8a5c-11ea-a681-5717011b704a.png"
+      },
+      {
+        "filename": "Maurice-cadc14ec-34d6-11eb-ba06-ad4819144716.png",
+        "format": "png",
+        "sizeBytes": 15398,
+        "publicPath": "/images/avatars/Maurice-cadc14ec-34d6-11eb-ba06-ad4819144716.png",
+        "resourcePath": "resources/avatars/Maurice-cadc14ec-34d6-11eb-ba06-ad4819144716.png"
+      },
+      {
+        "filename": "Maxim-cb25dc24-8a5b-11ea-b8b6-03899014426b.png",
+        "format": "png",
+        "sizeBytes": 14610,
+        "publicPath": "/images/avatars/Maxim-cb25dc24-8a5b-11ea-b8b6-03899014426b.png",
+        "resourcePath": "resources/avatars/Maxim-cb25dc24-8a5b-11ea-b8b6-03899014426b.png"
+      },
+      {
+        "filename": "Miguel-90623258-8a5c-11ea-a392-33dc43ec92d0.png",
+        "format": "png",
+        "sizeBytes": 12978,
+        "publicPath": "/images/avatars/Miguel-90623258-8a5c-11ea-a392-33dc43ec92d0.png",
+        "resourcePath": "resources/avatars/Miguel-90623258-8a5c-11ea-a392-33dc43ec92d0.png"
+      },
+      {
+        "filename": "Milica-68a88240-8a5b-11ea-8c5f-037959888e07.png",
+        "format": "png",
+        "sizeBytes": 17247,
+        "publicPath": "/images/avatars/Milica-68a88240-8a5b-11ea-8c5f-037959888e07.png",
+        "resourcePath": "resources/avatars/Milica-68a88240-8a5b-11ea-8c5f-037959888e07.png"
+      },
+      {
+        "filename": "Mina-8791bcf8-8a5b-11ea-b9cb-3349517cc907.png",
+        "format": "png",
+        "sizeBytes": 13453,
+        "publicPath": "/images/avatars/Mina-8791bcf8-8a5b-11ea-b9cb-3349517cc907.png",
+        "resourcePath": "resources/avatars/Mina-8791bcf8-8a5b-11ea-b9cb-3349517cc907.png"
+      },
+      {
+        "filename": "MrBeast-ec78e3ca-6715-11eb-9ef9-8df33c4083ad.png",
+        "format": "png",
+        "sizeBytes": 17123,
+        "publicPath": "/images/avatars/MrBeast-ec78e3ca-6715-11eb-9ef9-8df33c4083ad.png",
+        "resourcePath": "resources/avatars/MrBeast-ec78e3ca-6715-11eb-9ef9-8df33c4083ad.png"
+      },
+      {
+        "filename": "Natasha-9e5a8c40-8a5a-11ea-8148-9552b1fceca7.png",
+        "format": "png",
+        "sizeBytes": 9262,
+        "publicPath": "/images/avatars/Natasha-9e5a8c40-8a5a-11ea-8148-9552b1fceca7.png",
+        "resourcePath": "resources/avatars/Natasha-9e5a8c40-8a5a-11ea-8148-9552b1fceca7.png"
+      },
+      {
+        "filename": "Naycir-6b95f31c-8cd4-11eb-9726-ebd8bfd958e0.png",
+        "format": "png",
+        "sizeBytes": 20696,
+        "publicPath": "/images/avatars/Naycir-6b95f31c-8cd4-11eb-9726-ebd8bfd958e0.png",
+        "resourcePath": "resources/avatars/Naycir-6b95f31c-8cd4-11eb-9726-ebd8bfd958e0.png"
+      },
+      {
+        "filename": "Neeko-ad97e3c8-619c-11eb-9bc0-7710ca7b40a8.png",
+        "format": "png",
+        "sizeBytes": 19618,
+        "publicPath": "/images/avatars/Neeko-ad97e3c8-619c-11eb-9bc0-7710ca7b40a8.png",
+        "resourcePath": "resources/avatars/Neeko-ad97e3c8-619c-11eb-9bc0-7710ca7b40a8.png"
+      },
+      {
+        "filename": "Nelson-1255433c-8a5c-11ea-987e-9f25bc503404.png",
+        "format": "png",
+        "sizeBytes": 14021,
+        "publicPath": "/images/avatars/Nelson-1255433c-8a5c-11ea-987e-9f25bc503404.png",
+        "resourcePath": "resources/avatars/Nelson-1255433c-8a5c-11ea-987e-9f25bc503404.png"
+      },
+      {
+        "filename": "Nemo-68d5a718-7ae0-11eb-b0d0-754cfa1fff2d.png",
+        "format": "png",
+        "sizeBytes": 14669,
+        "publicPath": "/images/avatars/Nemo-68d5a718-7ae0-11eb-b0d0-754cfa1fff2d.png",
+        "resourcePath": "resources/avatars/Nemo-68d5a718-7ae0-11eb-b0d0-754cfa1fff2d.png"
+      },
+      {
+        "filename": "Nisha-3c54bce6-8a5a-11ea-8969-d93d0facecb3.png",
+        "format": "png",
+        "sizeBytes": 15371,
+        "publicPath": "/images/avatars/Nisha-3c54bce6-8a5a-11ea-8969-d93d0facecb3.png",
+        "resourcePath": "resources/avatars/Nisha-3c54bce6-8a5a-11ea-8969-d93d0facecb3.png"
+      },
+      {
+        "filename": "Noam-b8f9c1a4-8a5c-11ea-ae54-c75c26192fb8.png",
+        "format": "png",
+        "sizeBytes": 13793,
+        "publicPath": "/images/avatars/Noam-b8f9c1a4-8a5c-11ea-ae54-c75c26192fb8.png",
+        "resourcePath": "resources/avatars/Noam-b8f9c1a4-8a5c-11ea-ae54-c75c26192fb8.png"
+      },
+      {
+        "filename": "Noel-323c4b38-8a5b-11ea-9c14-4d8e79ee5906.png",
+        "format": "png",
+        "sizeBytes": 12454,
+        "publicPath": "/images/avatars/Noel-323c4b38-8a5b-11ea-9c14-4d8e79ee5906.png",
+        "resourcePath": "resources/avatars/Noel-323c4b38-8a5b-11ea-9c14-4d8e79ee5906.png"
+      },
+      {
+        "filename": "Nora-bdd36e82-8a5c-11ea-b774-516d3353b2f2.png",
+        "format": "png",
+        "sizeBytes": 18909,
+        "publicPath": "/images/avatars/Nora-bdd36e82-8a5c-11ea-b774-516d3353b2f2.png",
+        "resourcePath": "resources/avatars/Nora-bdd36e82-8a5c-11ea-b774-516d3353b2f2.png"
+      },
+      {
+        "filename": "Olga-99e9e62c-8a5c-11ea-8987-59ada08f1789.png",
+        "format": "png",
+        "sizeBytes": 16459,
+        "publicPath": "/images/avatars/Olga-99e9e62c-8a5c-11ea-8987-59ada08f1789.png",
+        "resourcePath": "resources/avatars/Olga-99e9e62c-8a5c-11ea-8987-59ada08f1789.png"
+      },
+      {
+        "filename": "Oliver-37e57528-8a5b-11ea-b169-e77fb0bc2332.png",
+        "format": "png",
+        "sizeBytes": 15281,
+        "publicPath": "/images/avatars/Oliver-37e57528-8a5b-11ea-b169-e77fb0bc2332.png",
+        "resourcePath": "resources/avatars/Oliver-37e57528-8a5b-11ea-b169-e77fb0bc2332.png"
+      },
+      {
+        "filename": "Oscar-b3baeede-8a5c-11ea-9dcb-370f2b8e1590.png",
+        "format": "png",
+        "sizeBytes": 12482,
+        "publicPath": "/images/avatars/Oscar-b3baeede-8a5c-11ea-9dcb-370f2b8e1590.png",
+        "resourcePath": "resources/avatars/Oscar-b3baeede-8a5c-11ea-9dcb-370f2b8e1590.png"
+      },
+      {
+        "filename": "Pablo-3a3c172c-8a5c-11ea-834e-f16bd389c7af.png",
+        "format": "png",
+        "sizeBytes": 15175,
+        "publicPath": "/images/avatars/Pablo-3a3c172c-8a5c-11ea-834e-f16bd389c7af.png",
+        "resourcePath": "resources/avatars/Pablo-3a3c172c-8a5c-11ea-834e-f16bd389c7af.png"
+      },
+      {
+        "filename": "Pandolfini-a24d226e-7ac7-11eb-bcc8-19f36a11b08f.png",
+        "format": "png",
+        "sizeBytes": 18861,
+        "publicPath": "/images/avatars/Pandolfini-a24d226e-7ac7-11eb-bcc8-19f36a11b08f.png",
+        "resourcePath": "resources/avatars/Pandolfini-a24d226e-7ac7-11eb-bcc8-19f36a11b08f.png"
+      },
+      {
+        "filename": "Paul Morphy-49d14a14-5979-11ee-896b-dbb3f6206aaf.png",
+        "format": "png",
+        "sizeBytes": 14244,
+        "publicPath": "/images/avatars/Paul Morphy-49d14a14-5979-11ee-896b-dbb3f6206aaf.png",
+        "resourcePath": "resources/avatars/Paul Morphy-49d14a14-5979-11ee-896b-dbb3f6206aaf.png"
+      },
+      {
+        "filename": "Phiona-7e45b40e-ac58-11eb-983a-abae9c2276ff.png",
+        "format": "png",
+        "sizeBytes": 25584,
+        "publicPath": "/images/avatars/Phiona-7e45b40e-ac58-11eb-983a-abae9c2276ff.png",
+        "resourcePath": "resources/avatars/Phiona-7e45b40e-ac58-11eb-983a-abae9c2276ff.png"
+      },
+      {
+        "filename": "Pia Cramling-0ca11162-8bdf-11ef-a59c-d99f00d3e426.png",
+        "format": "png",
+        "sizeBytes": 19509,
+        "publicPath": "/images/avatars/Pia Cramling-0ca11162-8bdf-11ef-a59c-d99f00d3e426.png",
+        "resourcePath": "resources/avatars/Pia Cramling-0ca11162-8bdf-11ef-a59c-d99f00d3e426.png"
+      },
+      {
+        "filename": "Pierre-34969388-8a5c-11ea-bdfc-3ff06f74a3ef.png",
+        "format": "png",
+        "sizeBytes": 17001,
+        "publicPath": "/images/avatars/Pierre-34969388-8a5c-11ea-bdfc-3ff06f74a3ef.png",
+        "resourcePath": "resources/avatars/Pierre-34969388-8a5c-11ea-bdfc-3ff06f74a3ef.png"
+      },
+      {
+        "filename": "Pokimane-81e4a3b6-60fb-11eb-9347-73b9f8bd6d32.png",
+        "format": "png",
+        "sizeBytes": 21189,
+        "publicPath": "/images/avatars/Pokimane-81e4a3b6-60fb-11eb-9347-73b9f8bd6d32.png",
+        "resourcePath": "resources/avatars/Pokimane-81e4a3b6-60fb-11eb-9347-73b9f8bd6d32.png"
+      },
+      {
+        "filename": "QTCinderella-26d05ad2-11aa-11ec-bb93-2d9c46e27b36.png",
+        "format": "png",
+        "sizeBytes": 19477,
+        "publicPath": "/images/avatars/QTCinderella-26d05ad2-11aa-11ec-bb93-2d9c46e27b36.png",
+        "resourcePath": "resources/avatars/QTCinderella-26d05ad2-11aa-11ec-bb93-2d9c46e27b36.png"
+      },
+      {
+        "filename": "Raffa Chess-88808328-6337-11f0-bb6b-db17c38d1335.png",
+        "format": "png",
+        "sizeBytes": 8339,
+        "publicPath": "/images/avatars/Raffa Chess-88808328-6337-11f0-bb6b-db17c38d1335.png",
+        "resourcePath": "resources/avatars/Raffa Chess-88808328-6337-11f0-bb6b-db17c38d1335.png"
+      },
+      {
+        "filename": "Robert-22ad099e-8a5d-11ea-a85c-256e787fc406.png",
+        "format": "png",
+        "sizeBytes": 13608,
+        "publicPath": "/images/avatars/Robert-22ad099e-8a5d-11ea-a85c-256e787fc406.png",
+        "resourcePath": "resources/avatars/Robert-22ad099e-8a5d-11ea-a85c-256e787fc406.png"
+      },
+      {
+        "filename": "Sabo-6d924f34-d376-11ef-821e-d53bd730e180.png",
+        "format": "png",
+        "sizeBytes": 9767,
+        "publicPath": "/images/avatars/Sabo-6d924f34-d376-11ef-821e-d53bd730e180.png",
+        "resourcePath": "resources/avatars/Sabo-6d924f34-d376-11ef-821e-d53bd730e180.png"
+      },
+      {
+        "filename": "Sakura-d69d6df0-8a5c-11ea-9ab7-21ebd23433b8.png",
+        "format": "png",
+        "sizeBytes": 15138,
+        "publicPath": "/images/avatars/Sakura-d69d6df0-8a5c-11ea-9ab7-21ebd23433b8.png",
+        "resourcePath": "resources/avatars/Sakura-d69d6df0-8a5c-11ea-9ab7-21ebd23433b8.png"
+      },
+      {
+        "filename": "Samay-4e50198c-4f98-11eb-bdb6-4d4fd77b1bfd.png",
+        "format": "png",
+        "sizeBytes": 15887,
+        "publicPath": "/images/avatars/Samay-4e50198c-4f98-11eb-bdb6-4d4fd77b1bfd.png",
+        "resourcePath": "resources/avatars/Samay-4e50198c-4f98-11eb-bdb6-4d4fd77b1bfd.png"
+      },
+      {
+        "filename": "Santiago-bd0ba8b2-8a5b-11ea-9444-d10096d2e5bd.png",
+        "format": "png",
+        "sizeBytes": 14187,
+        "publicPath": "/images/avatars/Santiago-bd0ba8b2-8a5b-11ea-9444-d10096d2e5bd.png",
+        "resourcePath": "resources/avatars/Santiago-bd0ba8b2-8a5b-11ea-9444-d10096d2e5bd.png"
+      },
+      {
+        "filename": "Sapnap-fe71267a-b9f9-11ee-849a-3bd867868610.png",
+        "format": "png",
+        "sizeBytes": 15553,
+        "publicPath": "/images/avatars/Sapnap-fe71267a-b9f9-11ee-849a-3bd867868610.png",
+        "resourcePath": "resources/avatars/Sapnap-fe71267a-b9f9-11ee-849a-3bd867868610.png"
+      },
+      {
+        "filename": "Sardoche-e5912b60-ac54-11eb-a2fb-c12d13821ebf.png",
+        "format": "png",
+        "sizeBytes": 13991,
+        "publicPath": "/images/avatars/Sardoche-e5912b60-ac54-11eb-a2fb-c12d13821ebf.png",
+        "resourcePath": "resources/avatars/Sardoche-e5912b60-ac54-11eb-a2fb-c12d13821ebf.png"
+      },
+      {
+        "filename": "Sofia-e45728c8-8a5c-11ea-92b6-d1fcd657d3ce.png",
+        "format": "png",
+        "sizeBytes": 14364,
+        "publicPath": "/images/avatars/Sofia-e45728c8-8a5c-11ea-92b6-d1fcd657d3ce.png",
+        "resourcePath": "resources/avatars/Sofia-e45728c8-8a5c-11ea-92b6-d1fcd657d3ce.png"
+      },
+      {
+        "filename": "Steve Aoki-30e1718c-5b39-11f0-8ba3-4b5fceb2f270.png",
+        "format": "png",
+        "sizeBytes": 16107,
+        "publicPath": "/images/avatars/Steve Aoki-30e1718c-5b39-11f0-8ba3-4b5fceb2f270.png",
+        "resourcePath": "resources/avatars/Steve Aoki-30e1718c-5b39-11f0-8ba3-4b5fceb2f270.png"
+      },
+      {
+        "filename": "Sven-e7e1fe4c-8a5b-11ea-9933-45b802196af0.png",
+        "format": "png",
+        "sizeBytes": 12500,
+        "publicPath": "/images/avatars/Sven-e7e1fe4c-8a5b-11ea-9933-45b802196af0.png",
+        "resourcePath": "resources/avatars/Sven-e7e1fe4c-8a5b-11ea-9933-45b802196af0.png"
+      },
+      {
+        "filename": "Tal-81522f56-9610-11ef-9928-a9c88d28a627.png",
+        "format": "png",
+        "sizeBytes": 6932,
+        "publicPath": "/images/avatars/Tal-81522f56-9610-11ef-9928-a9c88d28a627.png",
+        "resourcePath": "resources/avatars/Tal-81522f56-9610-11ef-9928-a9c88d28a627.png"
+      },
+      {
+        "filename": "The Clown-e2e9d5ca-2327-11f1-a279-a9bddda666a9.png",
+        "format": "png",
+        "sizeBytes": 14763,
+        "publicPath": "/images/avatars/The Clown-e2e9d5ca-2327-11f1-a279-a9bddda666a9.png",
+        "resourcePath": "resources/avatars/The Clown-e2e9d5ca-2327-11f1-a279-a9bddda666a9.png"
+      },
+      {
+        "filename": "The Daredevil-6a8e2710-2328-11f1-818c-518abbbec7dd.png",
+        "format": "png",
+        "sizeBytes": 9673,
+        "publicPath": "/images/avatars/The Daredevil-6a8e2710-2328-11f1-818c-518abbbec7dd.png",
+        "resourcePath": "resources/avatars/The Daredevil-6a8e2710-2328-11f1-818c-518abbbec7dd.png"
+      },
+      {
+        "filename": "The Grillmaster-63862a40-672f-11f0-96ce-ff425b0b4a67.png",
+        "format": "png",
+        "sizeBytes": 11470,
+        "publicPath": "/images/avatars/The Grillmaster-63862a40-672f-11f0-96ce-ff425b0b4a67.png",
+        "resourcePath": "resources/avatars/The Grillmaster-63862a40-672f-11f0-96ce-ff425b0b4a67.png"
+      },
+      {
+        "filename": "The Horse Tamer-1cc04b8a-2328-11f1-bf8a-555185fd2b8c.png",
+        "format": "png",
+        "sizeBytes": 10643,
+        "publicPath": "/images/avatars/The Horse Tamer-1cc04b8a-2328-11f1-bf8a-555185fd2b8c.png",
+        "resourcePath": "resources/avatars/The Horse Tamer-1cc04b8a-2328-11f1-bf8a-555185fd2b8c.png"
+      },
+      {
+        "filename": "The Mechanical Turk-c2fef3ca-1885-11ef-8bd3-c1a790534937.png",
+        "format": "png",
+        "sizeBytes": 9782,
+        "publicPath": "/images/avatars/The Mechanical Turk-c2fef3ca-1885-11ef-8bd3-c1a790534937.png",
+        "resourcePath": "resources/avatars/The Mechanical Turk-c2fef3ca-1885-11ef-8bd3-c1a790534937.png"
+      },
+      {
+        "filename": "The Ringmaster-d5c28e7c-2328-11f1-b7da-07223c8f9371.png",
+        "format": "png",
+        "sizeBytes": 11002,
+        "publicPath": "/images/avatars/The Ringmaster-d5c28e7c-2328-11f1-b7da-07223c8f9371.png",
+        "resourcePath": "resources/avatars/The Ringmaster-d5c28e7c-2328-11f1-b7da-07223c8f9371.png"
+      },
+      {
+        "filename": "Thomas Mars-909edaa2-f2d4-11ee-9c29-ff0b4f8c352f.png",
+        "format": "png",
+        "sizeBytes": 21944,
+        "publicPath": "/images/avatars/Thomas Mars-909edaa2-f2d4-11ee-9c29-ff0b4f8c352f.png",
+        "resourcePath": "resources/avatars/Thomas Mars-909edaa2-f2d4-11ee-9c29-ff0b4f8c352f.png"
+      },
+      {
+        "filename": "Tomas-61ba93b6-8a5a-11ea-b53b-d7f9fd2e8de1.png",
+        "format": "png",
+        "sizeBytes": 13835,
+        "publicPath": "/images/avatars/Tomas-61ba93b6-8a5a-11ea-b53b-d7f9fd2e8de1.png",
+        "resourcePath": "resources/avatars/Tomas-61ba93b6-8a5a-11ea-b53b-d7f9fd2e8de1.png"
+      },
+      {
+        "filename": "Vidit-9c496b92-b77b-11ec-bf19-27e5781aaa8e.png",
+        "format": "png",
+        "sizeBytes": 15775,
+        "publicPath": "/images/avatars/Vidit-9c496b92-b77b-11ec-bf19-27e5781aaa8e.png",
+        "resourcePath": "resources/avatars/Vidit-9c496b92-b77b-11ec-bf19-27e5781aaa8e.png"
+      },
+      {
+        "filename": "Vinh-165f0698-8a5c-11ea-bf03-d15d66821327.png",
+        "format": "png",
+        "sizeBytes": 12953,
+        "publicPath": "/images/avatars/Vinh-165f0698-8a5c-11ea-bf03-d15d66821327.png",
+        "resourcePath": "resources/avatars/Vinh-165f0698-8a5c-11ea-bf03-d15d66821327.png"
+      },
+      {
+        "filename": "Vishy-a78130fe-34c2-11eb-9a32-e3d0d73fdcb2.png",
+        "format": "png",
+        "sizeBytes": 15425,
+        "publicPath": "/images/avatars/Vishy-a78130fe-34c2-11eb-9a32-e3d0d73fdcb2.png",
+        "resourcePath": "resources/avatars/Vishy-a78130fe-34c2-11eb-9a32-e3d0d73fdcb2.png"
+      },
+      {
+        "filename": "Voyboy-65fd2fee-ac53-11eb-a32f-cb13885237cd.png",
+        "format": "png",
+        "sizeBytes": 9489,
+        "publicPath": "/images/avatars/Voyboy-65fd2fee-ac53-11eb-a32f-cb13885237cd.png",
+        "resourcePath": "resources/avatars/Voyboy-65fd2fee-ac53-11eb-a32f-cb13885237cd.png"
+      },
+      {
+        "filename": "Wally-86e0fc3c-8a5c-11ea-9012-59fc3f94355a.png",
+        "format": "png",
+        "sizeBytes": 16970,
+        "publicPath": "/images/avatars/Wally-86e0fc3c-8a5c-11ea-9012-59fc3f94355a.png",
+        "resourcePath": "resources/avatars/Wally-86e0fc3c-8a5c-11ea-9012-59fc3f94355a.png"
+      },
+      {
+        "filename": "Wayne-ac16fe04-8a5a-11ea-bb47-296cc7266a00.png",
+        "format": "png",
+        "sizeBytes": 13922,
+        "publicPath": "/images/avatars/Wayne-ac16fe04-8a5a-11ea-bb47-296cc7266a00.png",
+        "resourcePath": "resources/avatars/Wayne-ac16fe04-8a5a-11ea-bb47-296cc7266a00.png"
+      },
+      {
+        "filename": "Wei-f1d9cd52-8a5c-11ea-9f39-232bdab6a8f9.png",
+        "format": "png",
+        "sizeBytes": 12950,
+        "publicPath": "/images/avatars/Wei-f1d9cd52-8a5c-11ea-9f39-232bdab6a8f9.png",
+        "resourcePath": "resources/avatars/Wei-f1d9cd52-8a5c-11ea-9f39-232bdab6a8f9.png"
+      },
+      {
+        "filename": "Wendy-30326f88-8a5c-11ea-b234-9b639e301bef.png",
+        "format": "png",
+        "sizeBytes": 17557,
+        "publicPath": "/images/avatars/Wendy-30326f88-8a5c-11ea-b234-9b639e301bef.png",
+        "resourcePath": "resources/avatars/Wendy-30326f88-8a5c-11ea-b234-9b639e301bef.png"
+      },
+      {
+        "filename": "Wesley So-c17ae088-7aed-11eb-b11c-4d11067c3fa3.png",
+        "format": "png",
+        "sizeBytes": 15682,
+        "publicPath": "/images/avatars/Wesley So-c17ae088-7aed-11eb-b11c-4d11067c3fa3.png",
+        "resourcePath": "resources/avatars/Wesley So-c17ae088-7aed-11eb-b11c-4d11067c3fa3.png"
+      },
+      {
+        "filename": "Wilson-0aa55a1e-8a5c-11ea-aa7d-ef7a422e2399.png",
+        "format": "png",
+        "sizeBytes": 13282,
+        "publicPath": "/images/avatars/Wilson-0aa55a1e-8a5c-11ea-aa7d-ef7a422e2399.png",
+        "resourcePath": "resources/avatars/Wilson-0aa55a1e-8a5c-11ea-aa7d-ef7a422e2399.png"
+      },
+      {
+        "filename": "Wirtual-53ebebf8-b9fa-11ee-a2d7-17d741847d8c.png",
+        "format": "png",
+        "sizeBytes": 17806,
+        "publicPath": "/images/avatars/Wirtual-53ebebf8-b9fa-11ee-a2d7-17d741847d8c.png",
+        "resourcePath": "resources/avatars/Wirtual-53ebebf8-b9fa-11ee-a2d7-17d741847d8c.png"
+      },
+      {
+        "filename": "Xavier-956a9cea-8a5c-11ea-b41b-9b0a29ce7bd2.png",
+        "format": "png",
+        "sizeBytes": 11658,
+        "publicPath": "/images/avatars/Xavier-956a9cea-8a5c-11ea-b41b-9b0a29ce7bd2.png",
+        "resourcePath": "resources/avatars/Xavier-956a9cea-8a5c-11ea-b41b-9b0a29ce7bd2.png"
+      },
+      {
+        "filename": "Yoko Ono-90bca59e-0c83-11f1-b2ff-87800f13c1a3.png",
+        "format": "png",
+        "sizeBytes": 7120,
+        "publicPath": "/images/avatars/Yoko Ono-90bca59e-0c83-11f1-b2ff-87800f13c1a3.png",
+        "resourcePath": "resources/avatars/Yoko Ono-90bca59e-0c83-11f1-b2ff-87800f13c1a3.png"
+      },
+      {
+        "filename": "Zara-8cd774f0-8a5b-11ea-abe7-c34f4fa2aa56.png",
+        "format": "png",
+        "sizeBytes": 11990,
+        "publicPath": "/images/avatars/Zara-8cd774f0-8a5b-11ea-abe7-c34f4fa2aa56.png",
+        "resourcePath": "resources/avatars/Zara-8cd774f0-8a5b-11ea-abe7-c34f4fa2aa56.png"
+      },
+      {
+        "filename": "boxbox-3c3844de-11aa-11ec-9db6-cbbb68b764f7.png",
+        "format": "png",
+        "sizeBytes": 17176,
+        "publicPath": "/images/avatars/boxbox-3c3844de-11aa-11ec-9db6-cbbb68b764f7.png",
+        "resourcePath": "resources/avatars/boxbox-3c3844de-11aa-11ec-9db6-cbbb68b764f7.png"
+      },
+      {
+        "filename": "xQc-c74b9234-43cd-11eb-b19b-533cec43220e.png",
+        "format": "png",
+        "sizeBytes": 21701,
+        "publicPath": "/images/avatars/xQc-c74b9234-43cd-11eb-b19b-533cec43220e.png",
+        "resourcePath": "resources/avatars/xQc-c74b9234-43cd-11eb-b19b-533cec43220e.png"
+      }
+    ]
+  },
+  "sounds": {
+    "coins": [
+      {
+        "id": "bonus-coin-flip",
+        "filename": "bonus-coin-flip.mp3",
+        "format": "mp3",
+        "sizeBytes": 3850,
+        "publicPath": "/sounds/coins/bonus-coin-flip.mp3",
+        "resourcePath": "resources/sounds/coins/bonus-coin-flip.mp3"
+      },
+      {
+        "id": "bonus-coin",
+        "filename": "bonus-coin.mp3",
+        "format": "mp3",
+        "sizeBytes": 5002,
+        "publicPath": "/sounds/coins/bonus-coin.mp3",
+        "resourcePath": "resources/sounds/coins/bonus-coin.mp3"
+      },
+      {
+        "id": "coin-hit-1",
+        "filename": "coin-hit-1.mp3",
+        "format": "mp3",
+        "sizeBytes": 9480,
+        "publicPath": "/sounds/coins/coin-hit-1.mp3",
+        "resourcePath": "resources/sounds/coins/coin-hit-1.mp3"
+      },
+      {
+        "id": "coin-hit-2",
+        "filename": "coin-hit-2.mp3",
+        "format": "mp3",
+        "sizeBytes": 8749,
+        "publicPath": "/sounds/coins/coin-hit-2.mp3",
+        "resourcePath": "resources/sounds/coins/coin-hit-2.mp3"
+      },
+      {
+        "id": "coin-hit-3",
+        "filename": "coin-hit-3.mp3",
+        "format": "mp3",
+        "sizeBytes": 9010,
+        "publicPath": "/sounds/coins/coin-hit-3.mp3",
+        "resourcePath": "resources/sounds/coins/coin-hit-3.mp3"
+      },
+      {
+        "id": "daily-bonus-123",
+        "filename": "daily-bonus-123.mp3",
+        "format": "mp3",
+        "sizeBytes": 15235,
+        "publicPath": "/sounds/coins/daily-bonus-123.mp3",
+        "resourcePath": "resources/sounds/coins/daily-bonus-123.mp3"
+      },
+      {
+        "id": "points-halo",
+        "filename": "points-halo.mp3",
+        "format": "mp3",
+        "sizeBytes": 16785,
+        "publicPath": "/sounds/coins/points-halo.mp3",
+        "resourcePath": "resources/sounds/coins/points-halo.mp3"
+      },
+      {
+        "id": "points-hit-1",
+        "filename": "points-hit-1.mp3",
+        "format": "mp3",
+        "sizeBytes": 11568,
+        "publicPath": "/sounds/coins/points-hit-1.mp3",
+        "resourcePath": "resources/sounds/coins/points-hit-1.mp3"
+      },
+      {
+        "id": "points-hit-2",
+        "filename": "points-hit-2.mp3",
+        "format": "mp3",
+        "sizeBytes": 10733,
+        "publicPath": "/sounds/coins/points-hit-2.mp3",
+        "resourcePath": "resources/sounds/coins/points-hit-2.mp3"
+      },
+      {
+        "id": "points-hit-3",
+        "filename": "points-hit-3.mp3",
+        "format": "mp3",
+        "sizeBytes": 10943,
+        "publicPath": "/sounds/coins/points-hit-3.mp3",
+        "resourcePath": "resources/sounds/coins/points-hit-3.mp3"
+      },
+      {
+        "id": "progression-bonus-points-content-swap",
+        "filename": "progression-bonus-points-content-swap.mp3",
+        "format": "mp3",
+        "sizeBytes": 8896,
+        "publicPath": "/sounds/coins/progression-bonus-points-content-swap.mp3",
+        "resourcePath": "resources/sounds/coins/progression-bonus-points-content-swap.mp3"
+      },
+      {
+        "id": "progression-bonus-points",
+        "filename": "progression-bonus-points.mp3",
+        "format": "mp3",
+        "sizeBytes": 9856,
+        "publicPath": "/sounds/coins/progression-bonus-points.mp3",
+        "resourcePath": "resources/sounds/coins/progression-bonus-points.mp3"
+      },
+      {
+        "id": "puzzle-path-daily-bonus-123",
+        "filename": "puzzle-path-daily-bonus-123.mp3",
+        "format": "mp3",
+        "sizeBytes": 22126,
+        "publicPath": "/sounds/coins/puzzle-path-daily-bonus-123.mp3",
+        "resourcePath": "resources/sounds/coins/puzzle-path-daily-bonus-123.mp3"
+      },
+      {
+        "id": "reward-points-coin",
+        "filename": "reward-points-coin.mp3",
+        "format": "mp3",
+        "sizeBytes": 9969,
+        "publicPath": "/sounds/coins/reward-points-coin.mp3",
+        "resourcePath": "resources/sounds/coins/reward-points-coin.mp3"
+      }
+    ],
+    "ui": [
+      {
+        "id": "affirm-avatar",
+        "filename": "affirm-avatar.mp3",
+        "format": "mp3",
+        "sizeBytes": 6370,
+        "publicPath": "/sounds/ui/affirm-avatar.mp3",
+        "resourcePath": "resources/sounds/ui/affirm-avatar.mp3"
+      },
+      {
+        "id": "affirm-lock",
+        "filename": "affirm-lock.mp3",
+        "format": "mp3",
+        "sizeBytes": 6730,
+        "publicPath": "/sounds/ui/affirm-lock.mp3",
+        "resourcePath": "resources/sounds/ui/affirm-lock.mp3"
+      },
+      {
+        "id": "affirm",
+        "filename": "affirm.mp3",
+        "format": "mp3",
+        "sizeBytes": 6010,
+        "publicPath": "/sounds/ui/affirm.mp3",
+        "resourcePath": "resources/sounds/ui/affirm.mp3"
+      },
+      {
+        "id": "click",
+        "filename": "click.mp3",
+        "format": "mp3",
+        "sizeBytes": 4016,
+        "publicPath": "/sounds/ui/click.mp3",
+        "resourcePath": "resources/sounds/ui/click.mp3"
+      },
+      {
+        "id": "comment",
+        "filename": "comment.mp3",
+        "format": "mp3",
+        "sizeBytes": 7810,
+        "publicPath": "/sounds/ui/comment.mp3",
+        "resourcePath": "resources/sounds/ui/comment.mp3"
+      },
+      {
+        "id": "decline",
+        "filename": "decline.mp3",
+        "format": "mp3",
+        "sizeBytes": 5901,
+        "publicPath": "/sounds/ui/decline.mp3",
+        "resourcePath": "resources/sounds/ui/decline.mp3"
+      },
+      {
+        "id": "error-onboard",
+        "filename": "error-onboard.mp3",
+        "format": "mp3",
+        "sizeBytes": 3490,
+        "publicPath": "/sounds/ui/error-onboard.mp3",
+        "resourcePath": "resources/sounds/ui/error-onboard.mp3"
+      },
+      {
+        "id": "fail-blip-hi",
+        "filename": "fail-blip-hi.mp3",
+        "format": "mp3",
+        "sizeBytes": 5160,
+        "publicPath": "/sounds/ui/fail-blip-hi.mp3",
+        "resourcePath": "resources/sounds/ui/fail-blip-hi.mp3"
+      },
+      {
+        "id": "game_actions_click",
+        "filename": "game_actions_click.mp3",
+        "format": "mp3",
+        "sizeBytes": 5202,
+        "publicPath": "/sounds/ui/game_actions_click.mp3",
+        "resourcePath": "resources/sounds/ui/game_actions_click.mp3"
+      },
+      {
+        "id": "hop-land",
+        "filename": "hop-land.mp3",
+        "format": "mp3",
+        "sizeBytes": 21173,
+        "publicPath": "/sounds/ui/hop-land.mp3",
+        "resourcePath": "resources/sounds/ui/hop-land.mp3"
+      },
+      {
+        "id": "intercom_failed",
+        "filename": "intercom_failed.mp3",
+        "format": "mp3",
+        "sizeBytes": 7425,
+        "publicPath": "/sounds/ui/intercom_failed.mp3",
+        "resourcePath": "resources/sounds/ui/intercom_failed.mp3"
+      },
+      {
+        "id": "intercom_operator",
+        "filename": "intercom_operator.mp3",
+        "format": "mp3",
+        "sizeBytes": 7639,
+        "publicPath": "/sounds/ui/intercom_operator.mp3",
+        "resourcePath": "resources/sounds/ui/intercom_operator.mp3"
+      },
+      {
+        "id": "intercom_received",
+        "filename": "intercom_received.mp3",
+        "format": "mp3",
+        "sizeBytes": 6705,
+        "publicPath": "/sounds/ui/intercom_received.mp3",
+        "resourcePath": "resources/sounds/ui/intercom_received.mp3"
+      },
+      {
+        "id": "intercom_sent",
+        "filename": "intercom_sent.mp3",
+        "format": "mp3",
+        "sizeBytes": 4203,
+        "publicPath": "/sounds/ui/intercom_sent.mp3",
+        "resourcePath": "resources/sounds/ui/intercom_sent.mp3"
+      },
+      {
+        "id": "notification",
+        "filename": "notification.mp3",
+        "format": "mp3",
+        "sizeBytes": 3584,
+        "publicPath": "/sounds/ui/notification.mp3",
+        "resourcePath": "resources/sounds/ui/notification.mp3"
+      },
+      {
+        "id": "notifications_notify",
+        "filename": "notifications_notify.mp3",
+        "format": "mp3",
+        "sizeBytes": 9532,
+        "publicPath": "/sounds/ui/notifications_notify.mp3",
+        "resourcePath": "resources/sounds/ui/notifications_notify.mp3"
+      },
+      {
+        "id": "notify",
+        "filename": "notify.mp3",
+        "format": "mp3",
+        "sizeBytes": 2545,
+        "publicPath": "/sounds/ui/notify.mp3",
+        "resourcePath": "resources/sounds/ui/notify.mp3"
+      },
+      {
+        "id": "pop-bell-notifications",
+        "filename": "pop-bell-notifications.mp3",
+        "format": "mp3",
+        "sizeBytes": 12730,
+        "publicPath": "/sounds/ui/pop-bell-notifications.mp3",
+        "resourcePath": "resources/sounds/ui/pop-bell-notifications.mp3"
+      },
+      {
+        "id": "pop-land-standard",
+        "filename": "pop-land-standard.mp3",
+        "format": "mp3",
+        "sizeBytes": 7906,
+        "publicPath": "/sounds/ui/pop-land-standard.mp3",
+        "resourcePath": "resources/sounds/ui/pop-land-standard.mp3"
+      },
+      {
+        "id": "post",
+        "filename": "post.mp3",
+        "format": "mp3",
+        "sizeBytes": 8242,
+        "publicPath": "/sounds/ui/post.mp3",
+        "resourcePath": "resources/sounds/ui/post.mp3"
+      },
+      {
+        "id": "react-hover",
+        "filename": "react-hover.mp3",
+        "format": "mp3",
+        "sizeBytes": 3274,
+        "publicPath": "/sounds/ui/react-hover.mp3",
+        "resourcePath": "resources/sounds/ui/react-hover.mp3"
+      },
+      {
+        "id": "react",
+        "filename": "react.mp3",
+        "format": "mp3",
+        "sizeBytes": 3682,
+        "publicPath": "/sounds/ui/react.mp3",
+        "resourcePath": "resources/sounds/ui/react.mp3"
+      },
+      {
+        "id": "screen-drop",
+        "filename": "screen-drop.mp3",
+        "format": "mp3",
+        "sizeBytes": 11800,
+        "publicPath": "/sounds/ui/screen-drop.mp3",
+        "resourcePath": "resources/sounds/ui/screen-drop.mp3"
+      },
+      {
+        "id": "takeaway-navigate",
+        "filename": "takeaway-navigate.mp3",
+        "format": "mp3",
+        "sizeBytes": 3442,
+        "publicPath": "/sounds/ui/takeaway-navigate.mp3",
+        "resourcePath": "resources/sounds/ui/takeaway-navigate.mp3"
+      }
+    ],
+    "game": [
+      {
+        "id": "arena-end",
+        "filename": "arena-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 17680,
+        "publicPath": "/sounds/game/arena-end.mp3",
+        "resourcePath": "resources/sounds/game/arena-end.mp3"
+      },
+      {
+        "id": "arena-start",
+        "filename": "arena-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 17680,
+        "publicPath": "/sounds/game/arena-start.mp3",
+        "resourcePath": "resources/sounds/game/arena-start.mp3"
+      },
+      {
+        "id": "arena_arena-end",
+        "filename": "arena_arena-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 6732,
+        "publicPath": "/sounds/game/arena_arena-end.mp3",
+        "resourcePath": "resources/sounds/game/arena_arena-end.mp3"
+      },
+      {
+        "id": "arena_arena-start",
+        "filename": "arena_arena-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 6602,
+        "publicPath": "/sounds/game/arena_arena-start.mp3",
+        "resourcePath": "resources/sounds/game/arena_arena-start.mp3"
+      },
+      {
+        "id": "brilliant",
+        "filename": "brilliant.mp3",
+        "format": "mp3",
+        "sizeBytes": 13415,
+        "publicPath": "/sounds/game/brilliant.mp3",
+        "resourcePath": "resources/sounds/game/brilliant.mp3"
+      },
+      {
+        "id": "capture",
+        "filename": "capture.mp3",
+        "format": "mp3",
+        "sizeBytes": 2288,
+        "publicPath": "/sounds/game/capture.mp3",
+        "resourcePath": "resources/sounds/game/capture.mp3"
+      },
+      {
+        "id": "castle",
+        "filename": "castle.mp3",
+        "format": "mp3",
+        "sizeBytes": 4448,
+        "publicPath": "/sounds/game/castle.mp3",
+        "resourcePath": "resources/sounds/game/castle.mp3"
+      },
+      {
+        "id": "correct",
+        "filename": "correct.mp3",
+        "format": "mp3",
+        "sizeBytes": 7857,
+        "publicPath": "/sounds/game/correct.mp3",
+        "resourcePath": "resources/sounds/game/correct.mp3"
+      },
+      {
+        "id": "countdown-1",
+        "filename": "countdown-1.mp3",
+        "format": "mp3",
+        "sizeBytes": 12101,
+        "publicPath": "/sounds/game/countdown-1.mp3",
+        "resourcePath": "resources/sounds/game/countdown-1.mp3"
+      },
+      {
+        "id": "countdown-blip",
+        "filename": "countdown-blip.mp3",
+        "format": "mp3",
+        "sizeBytes": 21820,
+        "publicPath": "/sounds/game/countdown-blip.mp3",
+        "resourcePath": "resources/sounds/game/countdown-blip.mp3"
+      },
+      {
+        "id": "countdown-go",
+        "filename": "countdown-go.mp3",
+        "format": "mp3",
+        "sizeBytes": 21820,
+        "publicPath": "/sounds/game/countdown-go.mp3",
+        "resourcePath": "resources/sounds/game/countdown-go.mp3"
+      },
+      {
+        "id": "crm_capture",
+        "filename": "crm_capture.mp3",
+        "format": "mp3",
+        "sizeBytes": 2288,
+        "publicPath": "/sounds/game/crm_capture.mp3",
+        "resourcePath": "resources/sounds/game/crm_capture.mp3"
+      },
+      {
+        "id": "crm_capture_1",
+        "filename": "crm_capture_1.mp3",
+        "format": "mp3",
+        "sizeBytes": 12235,
+        "publicPath": "/sounds/game/crm_capture_1.mp3",
+        "resourcePath": "resources/sounds/game/crm_capture_1.mp3"
+      },
+      {
+        "id": "daily-puzzle-heartbeat",
+        "filename": "daily-puzzle-heartbeat.mp3",
+        "format": "mp3",
+        "sizeBytes": 10026,
+        "publicPath": "/sounds/game/daily-puzzle-heartbeat.mp3",
+        "resourcePath": "resources/sounds/game/daily-puzzle-heartbeat.mp3"
+      },
+      {
+        "id": "delight_brilliant",
+        "filename": "delight_brilliant.mp3",
+        "format": "mp3",
+        "sizeBytes": 16690,
+        "publicPath": "/sounds/game/delight_brilliant.mp3",
+        "resourcePath": "resources/sounds/game/delight_brilliant.mp3"
+      },
+      {
+        "id": "drawoffer",
+        "filename": "drawoffer.mp3",
+        "format": "mp3",
+        "sizeBytes": 4448,
+        "publicPath": "/sounds/game/drawoffer.mp3",
+        "resourcePath": "resources/sounds/game/drawoffer.mp3"
+      },
+      {
+        "id": "event-end",
+        "filename": "event-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 8863,
+        "publicPath": "/sounds/game/event-end.mp3",
+        "resourcePath": "resources/sounds/game/event-end.mp3"
+      },
+      {
+        "id": "event-start",
+        "filename": "event-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 9695,
+        "publicPath": "/sounds/game/event-start.mp3",
+        "resourcePath": "resources/sounds/game/event-start.mp3"
+      },
+      {
+        "id": "event-warning-60s",
+        "filename": "event-warning-60s.mp3",
+        "format": "mp3",
+        "sizeBytes": 16112,
+        "publicPath": "/sounds/game/event-warning-60s.mp3",
+        "resourcePath": "resources/sounds/game/event-warning-60s.mp3"
+      },
+      {
+        "id": "event-warning",
+        "filename": "event-warning.mp3",
+        "format": "mp3",
+        "sizeBytes": 6183,
+        "publicPath": "/sounds/game/event-warning.mp3",
+        "resourcePath": "resources/sounds/game/event-warning.mp3"
+      },
+      {
+        "id": "event_event-end",
+        "filename": "event_event-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 5973,
+        "publicPath": "/sounds/game/event_event-end.mp3",
+        "resourcePath": "resources/sounds/game/event_event-end.mp3"
+      },
+      {
+        "id": "event_event-start",
+        "filename": "event_event-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 7331,
+        "publicPath": "/sounds/game/event_event-start.mp3",
+        "resourcePath": "resources/sounds/game/event_event-start.mp3"
+      },
+      {
+        "id": "game-draw",
+        "filename": "game-draw.mp3",
+        "format": "mp3",
+        "sizeBytes": 8655,
+        "publicPath": "/sounds/game/game-draw.mp3",
+        "resourcePath": "resources/sounds/game/game-draw.mp3"
+      },
+      {
+        "id": "game-end",
+        "filename": "game-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 4880,
+        "publicPath": "/sounds/game/game-end.mp3",
+        "resourcePath": "resources/sounds/game/game-end.mp3"
+      },
+      {
+        "id": "game-lose",
+        "filename": "game-lose.mp3",
+        "format": "mp3",
+        "sizeBytes": 10527,
+        "publicPath": "/sounds/game/game-lose.mp3",
+        "resourcePath": "resources/sounds/game/game-lose.mp3"
+      },
+      {
+        "id": "game-start",
+        "filename": "game-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 4880,
+        "publicPath": "/sounds/game/game-start.mp3",
+        "resourcePath": "resources/sounds/game/game-start.mp3"
+      },
+      {
+        "id": "game-win",
+        "filename": "game-win.mp3",
+        "format": "mp3",
+        "sizeBytes": 7823,
+        "publicPath": "/sounds/game/game-win.mp3",
+        "resourcePath": "resources/sounds/game/game-win.mp3"
+      },
+      {
+        "id": "game_actions_capture",
+        "filename": "game_actions_capture.mp3",
+        "format": "mp3",
+        "sizeBytes": 4835,
+        "publicPath": "/sounds/game/game_actions_capture.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_capture.mp3"
+      },
+      {
+        "id": "game_actions_castle",
+        "filename": "game_actions_castle.mp3",
+        "format": "mp3",
+        "sizeBytes": 9886,
+        "publicPath": "/sounds/game/game_actions_castle.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_castle.mp3"
+      },
+      {
+        "id": "game_actions_drawoffer",
+        "filename": "game_actions_drawoffer.mp3",
+        "format": "mp3",
+        "sizeBytes": 7601,
+        "publicPath": "/sounds/game/game_actions_drawoffer.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_drawoffer.mp3"
+      },
+      {
+        "id": "game_actions_illegal",
+        "filename": "game_actions_illegal.mp3",
+        "format": "mp3",
+        "sizeBytes": 5980,
+        "publicPath": "/sounds/game/game_actions_illegal.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_illegal.mp3"
+      },
+      {
+        "id": "game_actions_move-check",
+        "filename": "game_actions_move-check.mp3",
+        "format": "mp3",
+        "sizeBytes": 5045,
+        "publicPath": "/sounds/game/game_actions_move-check.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_move-check.mp3"
+      },
+      {
+        "id": "game_actions_move-opponent",
+        "filename": "game_actions_move-opponent.mp3",
+        "format": "mp3",
+        "sizeBytes": 3843,
+        "publicPath": "/sounds/game/game_actions_move-opponent.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_move-opponent.mp3"
+      },
+      {
+        "id": "game_actions_move-self",
+        "filename": "game_actions_move-self.mp3",
+        "format": "mp3",
+        "sizeBytes": 3687,
+        "publicPath": "/sounds/game/game_actions_move-self.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_move-self.mp3"
+      },
+      {
+        "id": "game_actions_premove",
+        "filename": "game_actions_premove.mp3",
+        "format": "mp3",
+        "sizeBytes": 3922,
+        "publicPath": "/sounds/game/game_actions_premove.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_premove.mp3"
+      },
+      {
+        "id": "game_actions_promote",
+        "filename": "game_actions_promote.mp3",
+        "format": "mp3",
+        "sizeBytes": 4442,
+        "publicPath": "/sounds/game/game_actions_promote.mp3",
+        "resourcePath": "resources/sounds/game/game_actions_promote.mp3"
+      },
+      {
+        "id": "game_draw",
+        "filename": "game_draw.mp3",
+        "format": "mp3",
+        "sizeBytes": 8655,
+        "publicPath": "/sounds/game/game_draw.mp3",
+        "resourcePath": "resources/sounds/game/game_draw.mp3"
+      },
+      {
+        "id": "game_end",
+        "filename": "game_end.mp3",
+        "format": "mp3",
+        "sizeBytes": 4880,
+        "publicPath": "/sounds/game/game_end.mp3",
+        "resourcePath": "resources/sounds/game/game_end.mp3"
+      },
+      {
+        "id": "game_events_game-draw",
+        "filename": "game_events_game-draw.mp3",
+        "format": "mp3",
+        "sizeBytes": 5560,
+        "publicPath": "/sounds/game/game_events_game-draw.mp3",
+        "resourcePath": "resources/sounds/game/game_events_game-draw.mp3"
+      },
+      {
+        "id": "game_events_game-end",
+        "filename": "game_events_game-end.mp3",
+        "format": "mp3",
+        "sizeBytes": 7235,
+        "publicPath": "/sounds/game/game_events_game-end.mp3",
+        "resourcePath": "resources/sounds/game/game_events_game-end.mp3"
+      },
+      {
+        "id": "game_events_game-lose",
+        "filename": "game_events_game-lose.mp3",
+        "format": "mp3",
+        "sizeBytes": 6392,
+        "publicPath": "/sounds/game/game_events_game-lose.mp3",
+        "resourcePath": "resources/sounds/game/game_events_game-lose.mp3"
+      },
+      {
+        "id": "game_events_game-start",
+        "filename": "game_events_game-start.mp3",
+        "format": "mp3",
+        "sizeBytes": 8115,
+        "publicPath": "/sounds/game/game_events_game-start.mp3",
+        "resourcePath": "resources/sounds/game/game_events_game-start.mp3"
+      },
+      {
+        "id": "game_events_game-win",
+        "filename": "game_events_game-win.mp3",
+        "format": "mp3",
+        "sizeBytes": 5820,
+        "publicPath": "/sounds/game/game_events_game-win.mp3",
+        "resourcePath": "resources/sounds/game/game_events_game-win.mp3"
+      },
+      {
+        "id": "game_lose",
+        "filename": "game_lose.mp3",
+        "format": "mp3",
+        "sizeBytes": 10527,
+        "publicPath": "/sounds/game/game_lose.mp3",
+        "resourcePath": "resources/sounds/game/game_lose.mp3"
+      },
+      {
+        "id": "game_win",
+        "filename": "game_win.mp3",
+        "format": "mp3",
+        "sizeBytes": 7823,
+        "publicPath": "/sounds/game/game_win.mp3",
+        "resourcePath": "resources/sounds/game/game_win.mp3"
+      },
+      {
+        "id": "go",
+        "filename": "go.mp3",
+        "format": "mp3",
+        "sizeBytes": 23435,
+        "publicPath": "/sounds/game/go.mp3",
+        "resourcePath": "resources/sounds/game/go.mp3"
+      },
+      {
+        "id": "heartbeat-synthetic",
+        "filename": "heartbeat-synthetic.mp3",
+        "format": "mp3",
+        "sizeBytes": 10027,
+        "publicPath": "/sounds/game/heartbeat-synthetic.mp3",
+        "resourcePath": "resources/sounds/game/heartbeat-synthetic.mp3"
+      },
+      {
+        "id": "illegal",
+        "filename": "illegal.mp3",
+        "format": "mp3",
+        "sizeBytes": 9320,
+        "publicPath": "/sounds/game/illegal.mp3",
+        "resourcePath": "resources/sounds/game/illegal.mp3"
+      },
+      {
+        "id": "incorrect",
+        "filename": "incorrect.mp3",
+        "format": "mp3",
+        "sizeBytes": 5980,
+        "publicPath": "/sounds/game/incorrect.mp3",
+        "resourcePath": "resources/sounds/game/incorrect.mp3"
+      },
+      {
+        "id": "move-check",
+        "filename": "move-check.mp3",
+        "format": "mp3",
+        "sizeBytes": 5312,
+        "publicPath": "/sounds/game/move-check.mp3",
+        "resourcePath": "resources/sounds/game/move-check.mp3"
+      },
+      {
+        "id": "move-opponent",
+        "filename": "move-opponent.mp3",
+        "format": "mp3",
+        "sizeBytes": 3152,
+        "publicPath": "/sounds/game/move-opponent.mp3",
+        "resourcePath": "resources/sounds/game/move-opponent.mp3"
+      },
+      {
+        "id": "move-self",
+        "filename": "move-self.mp3",
+        "format": "mp3",
+        "sizeBytes": 3152,
+        "publicPath": "/sounds/game/move-self.mp3",
+        "resourcePath": "resources/sounds/game/move-self.mp3"
+      },
+      {
+        "id": "move_check",
+        "filename": "move_check.mp3",
+        "format": "mp3",
+        "sizeBytes": 5312,
+        "publicPath": "/sounds/game/move_check.mp3",
+        "resourcePath": "resources/sounds/game/move_check.mp3"
+      },
+      {
+        "id": "move_opponent",
+        "filename": "move_opponent.mp3",
+        "format": "mp3",
+        "sizeBytes": 3152,
+        "publicPath": "/sounds/game/move_opponent.mp3",
+        "resourcePath": "resources/sounds/game/move_opponent.mp3"
+      },
+      {
+        "id": "premove",
+        "filename": "premove.mp3",
+        "format": "mp3",
+        "sizeBytes": 3584,
+        "publicPath": "/sounds/game/premove.mp3",
+        "resourcePath": "resources/sounds/game/premove.mp3"
+      },
+      {
+        "id": "promote",
+        "filename": "promote.mp3",
+        "format": "mp3",
+        "sizeBytes": 4448,
+        "publicPath": "/sounds/game/promote.mp3",
+        "resourcePath": "resources/sounds/game/promote.mp3"
+      },
+      {
+        "id": "puzzle-correct",
+        "filename": "puzzle-correct.mp3",
+        "format": "mp3",
+        "sizeBytes": 7753,
+        "publicPath": "/sounds/game/puzzle-correct.mp3",
+        "resourcePath": "resources/sounds/game/puzzle-correct.mp3"
+      },
+      {
+        "id": "puzzle-incorrect",
+        "filename": "puzzle-incorrect.mp3",
+        "format": "mp3",
+        "sizeBytes": 6260,
+        "publicPath": "/sounds/game/puzzle-incorrect.mp3",
+        "resourcePath": "resources/sounds/game/puzzle-incorrect.mp3"
+      },
+      {
+        "id": "puzzle-path-correct",
+        "filename": "puzzle-path-correct.mp3",
+        "format": "mp3",
+        "sizeBytes": 14149,
+        "publicPath": "/sounds/game/puzzle-path-correct.mp3",
+        "resourcePath": "resources/sounds/game/puzzle-path-correct.mp3"
+      },
+      {
+        "id": "puzzles_puzzle_path_puzzle-path-correct",
+        "filename": "puzzles_puzzle_path_puzzle-path-correct.mp3",
+        "format": "mp3",
+        "sizeBytes": 9264,
+        "publicPath": "/sounds/game/puzzles_puzzle_path_puzzle-path-correct.mp3",
+        "resourcePath": "resources/sounds/game/puzzles_puzzle_path_puzzle-path-correct.mp3"
+      },
+      {
+        "id": "raw_castle",
+        "filename": "raw_castle.mp3",
+        "format": "mp3",
+        "sizeBytes": 4448,
+        "publicPath": "/sounds/game/raw_castle.mp3",
+        "resourcePath": "resources/sounds/game/raw_castle.mp3"
+      },
+      {
+        "id": "raw_promote",
+        "filename": "raw_promote.mp3",
+        "format": "mp3",
+        "sizeBytes": 4448,
+        "publicPath": "/sounds/game/raw_promote.mp3",
+        "resourcePath": "resources/sounds/game/raw_promote.mp3"
+      },
+      {
+        "id": "result",
+        "filename": "result.mp3",
+        "format": "mp3",
+        "sizeBytes": 14602,
+        "publicPath": "/sounds/game/result.mp3",
+        "resourcePath": "resources/sounds/game/result.mp3"
+      },
+      {
+        "id": "tenseconds",
+        "filename": "tenseconds.mp3",
+        "format": "mp3",
+        "sizeBytes": 10064,
+        "publicPath": "/sounds/game/tenseconds.mp3",
+        "resourcePath": "resources/sounds/game/tenseconds.mp3"
+      },
+      {
+        "id": "timer_and_countdown_tenseconds",
+        "filename": "timer_and_countdown_tenseconds.mp3",
+        "format": "mp3",
+        "sizeBytes": 16524,
+        "publicPath": "/sounds/game/timer_and_countdown_tenseconds.mp3",
+        "resourcePath": "resources/sounds/game/timer_and_countdown_tenseconds.mp3"
+      }
+    ],
+    "progression": [
+      {
+        "id": "bot-glow-flair",
+        "filename": "bot-glow-flair.mp3",
+        "format": "mp3",
+        "sizeBytes": 27034,
+        "publicPath": "/sounds/progression/bot-glow-flair.mp3",
+        "resourcePath": "resources/sounds/progression/bot-glow-flair.mp3"
+      },
+      {
+        "id": "initial-pawn",
+        "filename": "initial-pawn.mp3",
+        "format": "mp3",
+        "sizeBytes": 34762,
+        "publicPath": "/sounds/progression/initial-pawn.mp3",
+        "resourcePath": "resources/sounds/progression/initial-pawn.mp3"
+      },
+      {
+        "id": "l1-champion",
+        "filename": "l1-champion.mp3",
+        "format": "mp3",
+        "sizeBytes": 35602,
+        "publicPath": "/sounds/progression/l1-champion.mp3",
+        "resourcePath": "resources/sounds/progression/l1-champion.mp3"
+      },
+      {
+        "id": "l1-legend",
+        "filename": "l1-legend.mp3",
+        "format": "mp3",
+        "sizeBytes": 21228,
+        "publicPath": "/sounds/progression/l1-legend.mp3",
+        "resourcePath": "resources/sounds/progression/l1-legend.mp3"
+      },
+      {
+        "id": "l1-stone",
+        "filename": "l1-stone.mp3",
+        "format": "mp3",
+        "sizeBytes": 10302,
+        "publicPath": "/sounds/progression/l1-stone.mp3",
+        "resourcePath": "resources/sounds/progression/l1-stone.mp3"
+      },
+      {
+        "id": "l2-silver",
+        "filename": "l2-silver.mp3",
+        "format": "mp3",
+        "sizeBytes": 18833,
+        "publicPath": "/sounds/progression/l2-silver.mp3",
+        "resourcePath": "resources/sounds/progression/l2-silver.mp3"
+      },
+      {
+        "id": "last-square-tier-hop",
+        "filename": "last-square-tier-hop.mp3",
+        "format": "mp3",
+        "sizeBytes": 19548,
+        "publicPath": "/sounds/progression/last-square-tier-hop.mp3",
+        "resourcePath": "resources/sounds/progression/last-square-tier-hop.mp3"
+      },
+      {
+        "id": "lesson-fail",
+        "filename": "lesson-fail.mp3",
+        "format": "mp3",
+        "sizeBytes": 20511,
+        "publicPath": "/sounds/progression/lesson-fail.mp3",
+        "resourcePath": "resources/sounds/progression/lesson-fail.mp3"
+      },
+      {
+        "id": "lesson-pass",
+        "filename": "lesson-pass.mp3",
+        "format": "mp3",
+        "sizeBytes": 16351,
+        "publicPath": "/sounds/progression/lesson-pass.mp3",
+        "resourcePath": "resources/sounds/progression/lesson-pass.mp3"
+      },
+      {
+        "id": "lessons_lesson-fail",
+        "filename": "lessons_lesson-fail.mp3",
+        "format": "mp3",
+        "sizeBytes": 19528,
+        "publicPath": "/sounds/progression/lessons_lesson-fail.mp3",
+        "resourcePath": "resources/sounds/progression/lessons_lesson-fail.mp3"
+      },
+      {
+        "id": "lessons_lesson-pass",
+        "filename": "lessons_lesson-pass.mp3",
+        "format": "mp3",
+        "sizeBytes": 16837,
+        "publicPath": "/sounds/progression/lessons_lesson-pass.mp3",
+        "resourcePath": "resources/sounds/progression/lessons_lesson-pass.mp3"
+      },
+      {
+        "id": "level-up-award",
+        "filename": "level-up-award.mp3",
+        "format": "mp3",
+        "sizeBytes": 28933,
+        "publicPath": "/sounds/progression/level-up-award.mp3",
+        "resourcePath": "resources/sounds/progression/level-up-award.mp3"
+      },
+      {
+        "id": "onboarding_signup_signup_screen_signup-pawn-animation",
+        "filename": "onboarding_signup_signup_screen_signup-pawn-animation.mp3",
+        "format": "mp3",
+        "sizeBytes": 44454,
+        "publicPath": "/sounds/progression/onboarding_signup_signup_screen_signup-pawn-animation.mp3",
+        "resourcePath": "resources/sounds/progression/onboarding_signup_signup_screen_signup-pawn-animation.mp3"
+      },
+      {
+        "id": "pawn-teleport-depart",
+        "filename": "pawn-teleport-depart.mp3",
+        "format": "mp3",
+        "sizeBytes": 19499,
+        "publicPath": "/sounds/progression/pawn-teleport-depart.mp3",
+        "resourcePath": "resources/sounds/progression/pawn-teleport-depart.mp3"
+      },
+      {
+        "id": "prestige-pawn-to-podium",
+        "filename": "prestige-pawn-to-podium.mp3",
+        "format": "mp3",
+        "sizeBytes": 20847,
+        "publicPath": "/sounds/progression/prestige-pawn-to-podium.mp3",
+        "resourcePath": "resources/sounds/progression/prestige-pawn-to-podium.mp3"
+      },
+      {
+        "id": "prestige-screen-drop-alt",
+        "filename": "prestige-screen-drop-alt.mp3",
+        "format": "mp3",
+        "sizeBytes": 5226,
+        "publicPath": "/sounds/progression/prestige-screen-drop-alt.mp3",
+        "resourcePath": "resources/sounds/progression/prestige-screen-drop-alt.mp3"
+      },
+      {
+        "id": "prestige-up-award-mobile",
+        "filename": "prestige-up-award-mobile.mp3",
+        "format": "mp3",
+        "sizeBytes": 133057,
+        "publicPath": "/sounds/progression/prestige-up-award-mobile.mp3",
+        "resourcePath": "resources/sounds/progression/prestige-up-award-mobile.mp3"
+      },
+      {
+        "id": "prog-bar-glow",
+        "filename": "prog-bar-glow.mp3",
+        "format": "mp3",
+        "sizeBytes": 8578,
+        "publicPath": "/sounds/progression/prog-bar-glow.mp3",
+        "resourcePath": "resources/sounds/progression/prog-bar-glow.mp3"
+      },
+      {
+        "id": "progression-milestone-reached",
+        "filename": "progression-milestone-reached.mp3",
+        "format": "mp3",
+        "sizeBytes": 13216,
+        "publicPath": "/sounds/progression/progression-milestone-reached.mp3",
+        "resourcePath": "resources/sounds/progression/progression-milestone-reached.mp3"
+      },
+      {
+        "id": "progression-reward-appears",
+        "filename": "progression-reward-appears.mp3",
+        "format": "mp3",
+        "sizeBytes": 33376,
+        "publicPath": "/sounds/progression/progression-reward-appears.mp3",
+        "resourcePath": "resources/sounds/progression/progression-reward-appears.mp3"
+      },
+      {
+        "id": "puzzle-path-disappear",
+        "filename": "puzzle-path-disappear.mp3",
+        "format": "mp3",
+        "sizeBytes": 27805,
+        "publicPath": "/sounds/progression/puzzle-path-disappear.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-disappear.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-cannon",
+        "filename": "puzzle-path-easter-egg-cannon.mp3",
+        "format": "mp3",
+        "sizeBytes": 36488,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-cannon.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-cannon.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-door",
+        "filename": "puzzle-path-easter-egg-door.mp3",
+        "format": "mp3",
+        "sizeBytes": 33876,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-door.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-door.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-fanfare",
+        "filename": "puzzle-path-easter-egg-fanfare.mp3",
+        "format": "mp3",
+        "sizeBytes": 57908,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-fanfare.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-fanfare.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-frog",
+        "filename": "puzzle-path-easter-egg-frog.mp3",
+        "format": "mp3",
+        "sizeBytes": 17157,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-frog.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-frog.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-goat",
+        "filename": "puzzle-path-easter-egg-goat.mp3",
+        "format": "mp3",
+        "sizeBytes": 31263,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-goat.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-goat.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-gong",
+        "filename": "puzzle-path-easter-egg-gong.mp3",
+        "format": "mp3",
+        "sizeBytes": 45369,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-gong.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-gong.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-gramophone",
+        "filename": "puzzle-path-easter-egg-gramophone.mp3",
+        "format": "mp3",
+        "sizeBytes": 80373,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-gramophone.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-gramophone.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-piano",
+        "filename": "puzzle-path-easter-egg-piano.mp3",
+        "format": "mp3",
+        "sizeBytes": 23949,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-piano.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-piano.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-shimmer",
+        "filename": "puzzle-path-easter-egg-shimmer.mp3",
+        "format": "mp3",
+        "sizeBytes": 39100,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-shimmer.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-shimmer.mp3"
+      },
+      {
+        "id": "puzzle-path-easter-egg-stones",
+        "filename": "puzzle-path-easter-egg-stones.mp3",
+        "format": "mp3",
+        "sizeBytes": 28129,
+        "publicPath": "/sounds/progression/puzzle-path-easter-egg-stones.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-easter-egg-stones.mp3"
+      },
+      {
+        "id": "puzzle-path-jump-land",
+        "filename": "puzzle-path-jump-land.mp3",
+        "format": "mp3",
+        "sizeBytes": 26395,
+        "publicPath": "/sounds/progression/puzzle-path-jump-land.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-jump-land.mp3"
+      },
+      {
+        "id": "puzzle-path-jump-with-glasses",
+        "filename": "puzzle-path-jump-with-glasses.mp3",
+        "format": "mp3",
+        "sizeBytes": 32447,
+        "publicPath": "/sounds/progression/puzzle-path-jump-with-glasses.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-jump-with-glasses.mp3"
+      },
+      {
+        "id": "puzzle-path-level-up-new",
+        "filename": "puzzle-path-level-up-new.mp3",
+        "format": "mp3",
+        "sizeBytes": 42179,
+        "publicPath": "/sounds/progression/puzzle-path-level-up-new.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-level-up-new.mp3"
+      },
+      {
+        "id": "puzzle-path-level-up",
+        "filename": "puzzle-path-level-up.mp3",
+        "format": "mp3",
+        "sizeBytes": 31626,
+        "publicPath": "/sounds/progression/puzzle-path-level-up.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-level-up.mp3"
+      },
+      {
+        "id": "puzzle-path-podium",
+        "filename": "puzzle-path-podium.mp3",
+        "format": "mp3",
+        "sizeBytes": 27898,
+        "publicPath": "/sounds/progression/puzzle-path-podium.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-podium.mp3"
+      },
+      {
+        "id": "puzzle-path-prestige-new",
+        "filename": "puzzle-path-prestige-new.mp3",
+        "format": "mp3",
+        "sizeBytes": 81589,
+        "publicPath": "/sounds/progression/puzzle-path-prestige-new.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-prestige-new.mp3"
+      },
+      {
+        "id": "puzzle-path-reappear",
+        "filename": "puzzle-path-reappear.mp3",
+        "format": "mp3",
+        "sizeBytes": 23097,
+        "publicPath": "/sounds/progression/puzzle-path-reappear.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-reappear.mp3"
+      },
+      {
+        "id": "puzzle-path-screen-drop",
+        "filename": "puzzle-path-screen-drop.mp3",
+        "format": "mp3",
+        "sizeBytes": 6948,
+        "publicPath": "/sounds/progression/puzzle-path-screen-drop.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-screen-drop.mp3"
+      },
+      {
+        "id": "puzzle-path-scroll",
+        "filename": "puzzle-path-scroll.mp3",
+        "format": "mp3",
+        "sizeBytes": 16268,
+        "publicPath": "/sounds/progression/puzzle-path-scroll.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-scroll.mp3"
+      },
+      {
+        "id": "puzzle-path-tier-up-new",
+        "filename": "puzzle-path-tier-up-new.mp3",
+        "format": "mp3",
+        "sizeBytes": 47585,
+        "publicPath": "/sounds/progression/puzzle-path-tier-up-new.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-tier-up-new.mp3"
+      },
+      {
+        "id": "puzzle-path-tier-up",
+        "filename": "puzzle-path-tier-up.mp3",
+        "format": "mp3",
+        "sizeBytes": 35702,
+        "publicPath": "/sounds/progression/puzzle-path-tier-up.mp3",
+        "resourcePath": "resources/sounds/progression/puzzle-path-tier-up.mp3"
+      },
+      {
+        "id": "puzzles_puzzle_path_puzzle-path-level-up",
+        "filename": "puzzles_puzzle_path_puzzle-path-level-up.mp3",
+        "format": "mp3",
+        "sizeBytes": 20610,
+        "publicPath": "/sounds/progression/puzzles_puzzle_path_puzzle-path-level-up.mp3",
+        "resourcePath": "resources/sounds/progression/puzzles_puzzle_path_puzzle-path-level-up.mp3"
+      },
+      {
+        "id": "puzzles_puzzle_path_puzzle-path-tier-up",
+        "filename": "puzzles_puzzle_path_puzzle-path-tier-up.mp3",
+        "format": "mp3",
+        "sizeBytes": 25594,
+        "publicPath": "/sounds/progression/puzzles_puzzle_path_puzzle-path-tier-up.mp3",
+        "resourcePath": "resources/sounds/progression/puzzles_puzzle_path_puzzle-path-tier-up.mp3"
+      },
+      {
+        "id": "r1-bronze",
+        "filename": "r1-bronze.mp3",
+        "format": "mp3",
+        "sizeBytes": 40295,
+        "publicPath": "/sounds/progression/r1-bronze.mp3",
+        "resourcePath": "resources/sounds/progression/r1-bronze.mp3"
+      },
+      {
+        "id": "r1-wood",
+        "filename": "r1-wood.mp3",
+        "format": "mp3",
+        "sizeBytes": 6284,
+        "publicPath": "/sounds/progression/r1-wood.mp3",
+        "resourcePath": "resources/sounds/progression/r1-wood.mp3"
+      },
+      {
+        "id": "r2-crystal",
+        "filename": "r2-crystal.mp3",
+        "format": "mp3",
+        "sizeBytes": 23360,
+        "publicPath": "/sounds/progression/r2-crystal.mp3",
+        "resourcePath": "resources/sounds/progression/r2-crystal.mp3"
+      },
+      {
+        "id": "r2-elite",
+        "filename": "r2-elite.mp3",
+        "format": "mp3",
+        "sizeBytes": 11380,
+        "publicPath": "/sounds/progression/r2-elite.mp3",
+        "resourcePath": "resources/sounds/progression/r2-elite.mp3"
+      },
+      {
+        "id": "r2-stone",
+        "filename": "r2-stone.mp3",
+        "format": "mp3",
+        "sizeBytes": 16570,
+        "publicPath": "/sounds/progression/r2-stone.mp3",
+        "resourcePath": "resources/sounds/progression/r2-stone.mp3"
+      },
+      {
+        "id": "r2-wood",
+        "filename": "r2-wood.mp3",
+        "format": "mp3",
+        "sizeBytes": 7155,
+        "publicPath": "/sounds/progression/r2-wood.mp3",
+        "resourcePath": "resources/sounds/progression/r2-wood.mp3"
+      },
+      {
+        "id": "reappear-mobile",
+        "filename": "reappear-mobile.mp3",
+        "format": "mp3",
+        "sizeBytes": 26382,
+        "publicPath": "/sounds/progression/reappear-mobile.mp3",
+        "resourcePath": "resources/sounds/progression/reappear-mobile.mp3"
+      },
+      {
+        "id": "results_and_feedback_training-result-bad",
+        "filename": "results_and_feedback_training-result-bad.mp3",
+        "format": "mp3",
+        "sizeBytes": 15730,
+        "publicPath": "/sounds/progression/results_and_feedback_training-result-bad.mp3",
+        "resourcePath": "resources/sounds/progression/results_and_feedback_training-result-bad.mp3"
+      },
+      {
+        "id": "results_and_feedback_training-result-good",
+        "filename": "results_and_feedback_training-result-good.mp3",
+        "format": "mp3",
+        "sizeBytes": 15391,
+        "publicPath": "/sounds/progression/results_and_feedback_training-result-good.mp3",
+        "resourcePath": "resources/sounds/progression/results_and_feedback_training-result-good.mp3"
+      },
+      {
+        "id": "results_and_feedback_training-result-ok",
+        "filename": "results_and_feedback_training-result-ok.mp3",
+        "format": "mp3",
+        "sizeBytes": 15629,
+        "publicPath": "/sounds/progression/results_and_feedback_training-result-ok.mp3",
+        "resourcePath": "resources/sounds/progression/results_and_feedback_training-result-ok.mp3"
+      },
+      {
+        "id": "signup-pawn-animation",
+        "filename": "signup-pawn-animation.mp3",
+        "format": "mp3",
+        "sizeBytes": 62088,
+        "publicPath": "/sounds/progression/signup-pawn-animation.mp3",
+        "resourcePath": "resources/sounds/progression/signup-pawn-animation.mp3"
+      },
+      {
+        "id": "skill-highlight",
+        "filename": "skill-highlight.mp3",
+        "format": "mp3",
+        "sizeBytes": 7762,
+        "publicPath": "/sounds/progression/skill-highlight.mp3",
+        "resourcePath": "resources/sounds/progression/skill-highlight.mp3"
+      },
+      {
+        "id": "skill-mastery",
+        "filename": "skill-mastery.mp3",
+        "format": "mp3",
+        "sizeBytes": 15394,
+        "publicPath": "/sounds/progression/skill-mastery.mp3",
+        "resourcePath": "resources/sounds/progression/skill-mastery.mp3"
+      },
+      {
+        "id": "skill-progress",
+        "filename": "skill-progress.mp3",
+        "format": "mp3",
+        "sizeBytes": 11050,
+        "publicPath": "/sounds/progression/skill-progress.mp3",
+        "resourcePath": "resources/sounds/progression/skill-progress.mp3"
+      },
+      {
+        "id": "skill-unlocked",
+        "filename": "skill-unlocked.mp3",
+        "format": "mp3",
+        "sizeBytes": 18538,
+        "publicPath": "/sounds/progression/skill-unlocked.mp3",
+        "resourcePath": "resources/sounds/progression/skill-unlocked.mp3"
+      },
+      {
+        "id": "streak-flame-milestone",
+        "filename": "streak-flame-milestone.mp3",
+        "format": "mp3",
+        "sizeBytes": 25522,
+        "publicPath": "/sounds/progression/streak-flame-milestone.mp3",
+        "resourcePath": "resources/sounds/progression/streak-flame-milestone.mp3"
+      },
+      {
+        "id": "streak-flame-normal",
+        "filename": "streak-flame-normal.mp3",
+        "format": "mp3",
+        "sizeBytes": 25642,
+        "publicPath": "/sounds/progression/streak-flame-normal.mp3",
+        "resourcePath": "resources/sounds/progression/streak-flame-normal.mp3"
+      },
+      {
+        "id": "tier-up-award",
+        "filename": "tier-up-award.mp3",
+        "format": "mp3",
+        "sizeBytes": 33318,
+        "publicPath": "/sounds/progression/tier-up-award.mp3",
+        "resourcePath": "resources/sounds/progression/tier-up-award.mp3"
+      },
+      {
+        "id": "training-result-bad",
+        "filename": "training-result-bad.mp3",
+        "format": "mp3",
+        "sizeBytes": 13088,
+        "publicPath": "/sounds/progression/training-result-bad.mp3",
+        "resourcePath": "resources/sounds/progression/training-result-bad.mp3"
+      },
+      {
+        "id": "training-result-good",
+        "filename": "training-result-good.mp3",
+        "format": "mp3",
+        "sizeBytes": 13088,
+        "publicPath": "/sounds/progression/training-result-good.mp3",
+        "resourcePath": "resources/sounds/progression/training-result-good.mp3"
+      },
+      {
+        "id": "training-result-ok",
+        "filename": "training-result-ok.mp3",
+        "format": "mp3",
+        "sizeBytes": 13088,
+        "publicPath": "/sounds/progression/training-result-ok.mp3",
+        "resourcePath": "resources/sounds/progression/training-result-ok.mp3"
+      }
+    ]
+  }
+}

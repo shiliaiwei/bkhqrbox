@@ -1,0 +1,715 @@
+--- Page 1 ---
+Implementation Guideline
+Bakong Open
+API Documentation
+Version 1.0.2
+May 2021
+
+--- Page 2 ---
+Change Logs
+Version
+Date
+Description
+1.0.0
+21.05.2021
+Initial document.
+1.0.1
+27.07.2021
+Add check transaction status api.
+1.0.2
+04.11.2021
+Add check Bakong account api.
+©
+National Bank of Cambodia - 2021
+1
+--- Page 3 ---
+Table Content
+I. Introduction
+3
+1. Purpose
+3
+2. Scope
+3
+3. Overall API
+3
+II. API Documentation
+4
+1. Request Token
+5
+1.1. API Speciﬁcations
+5
+1.2. Request
+5
+1.3. Response
+6
+2. Verify Token
+7
+2.1. API Speciﬁcations
+7
+2.2. Request
+7
+2.3. Response
+9
+3. Renew Token
+10
+3.1. API Speciﬁcations
+10
+3.2. Request
+10
+3.3. Response
+11
+4. Generate Deeplink
+12
+4.1. API Speciﬁcations
+12
+4.2. Request
+12
+4.3. Response
+13
+5. Check Transaction Status by  MD5
+14
+5.1. API Speciﬁcations
+14
+5.2. Request
+14
+5.3. Response
+14
+6. Check Transaction Status by Full Hash
+17
+6.1. API Speciﬁcations
+17
+6.2. Request
+17
+6.3 Response
+17
+7. Check Transaction Status by Short Hash
+20
+7.1. API Speciﬁcations
+20
+7.2. Request
+20
+7.3. Response
+21
+8. Check Bakong Account
+23
+4.1. API Speciﬁcations
+23
+4.2. Request
+23
+4.3. Response
+24
+©
+National Bank of Cambodia - 2021
+2
+--- Page 4 ---
+I. Introduction
+1. Purpose
+This
+document
+describes
+the
+detailed
+speciﬁcation
+of
+Bakong
+open
+API
+offered
+by
+National Bank of Cambodia.
+The
+expected
+readers
+are
+NBC
+technical
+team
+and
+third-party
+technical
+team.
+This
+can
+be
+used as reference for any interest related to the API mentioned in this document.
+2. Scope
+This
+document
+contains
+the
+complete
+description
+of
+the
+API
+speciﬁcation
+including:
+endpoint, status code, request and response sample.
+3. Overall API
+No
+Name
+Method
+URL
+1
+Request token
+POST
+{{baseUrl}}/v1/request_token
+2
+Verify token
+POST
+{{baseUrl}}/v1/verify
+3
+Renew token
+POST
+{{baseUrl}}/v1/renew_token
+4
+Generate deeplink
+POST
+{{baseUrl}}/v1/generate_deeplink_by_qr
+5
+Check transaction by md5
+POST
+{{baseUrl}}/v1/check_transaction_by_md5
+6
+Check transaction by full
+hash
+POST
+{{baseUrl}}/v1/check_transaction_by_hash
+7
+Check transaction by short
+hash
+POST {{baseUrl}}/v1/check_transaction_by_shor
+t_hash
+©
+National Bank of Cambodia - 2021
+3
+--- Page 5 ---
+II. API Documentation
+Status Code
+●
+HTTP Response Code
+Code
+Text
+200
+Ok
+400
+Bad request
+401
+Unauthorized
+403
+Forbidden
+404
+Not found
+429
+To many request
+500
+Internal server error
+●
+Custom Code
+Key
+Type
+Code
+Text
+Code
+Int 
+0
+Success
+1
+Fail
+Error code
+Int
+1
+Transaction could not be found. Please try again.
+2
+Sorry, the system does not support static QR code.
+3
+Transaction failed.
+4
+Error occurred on requesting deeplink from provider.
+5
+Missing required ﬁelds.
+6
+Unauthorized.
+7
+Email server has been down.
+8
+Email has been registered already.
+9
+Cannot connect to server. Please try again later.
+10
+Not registered yet.
+©
+National Bank of Cambodia - 2021
+4
+--- Page 6 ---
+1. Request Token
+1.1. API Speciﬁcations
+HTTP Method
+POST
+Name
+Request token
+Endpoint
+{{baseUrl}}/v1/request_token
+Description
+This api is used for registering integrator information to get
+access tokens.
+1.2. Request
+Request Parameters
+Parameter
+Type
+Mandatory
+Constraint
+Description
+Header parameters
+Content-Type
+String
+0
+application/json
+Body Parameters
+email
+String
+1
+MaxLen: 30
+The email that used
+to get a token.
+organization
+String
+1
+MinLen: 1
+MaxLen: 100
+The organization
+name.
+project
+String
+1
+MinLen: 1
+MaxLen: 100
+The project name.
+Sample Request
+{
+"email"
+: "string",
+"organization"
+: "string",
+"project"
+: "string"
+}
+©
+National Bank of Cambodia - 2021
+5
+--- Page 7 ---
+1.3. Response
+Response Parameters
+Parameter
+Type
+Mandatory
+Description
+data
+Object
+1
+errorCode
+Int
+1
+Error code.
+responseCode
+Int
+1
+Response code success or fail.
+responseMessage
+String
+1
+The request result message.
+Sample Response
+{
+"data"
+: null,
+"errorCode"
+: null,
+"responseCode"
+: 0,
+"responseMessage"
+: "Email has been sent"
+}
+©
+National Bank of Cambodia - 2021
+6
+--- Page 8 ---
+2. Verify Token
+2.1. API Speciﬁcations
+HTTP Method
+POST
+Name
+Verify token
+Endpoint
+{{baseUrl}}/v1/verify
+Description
+This api is used for verifying code before sending a token.
+2.2. Request
+Request Parameters
+Parameter
+Type
+Mandatory
+Constraint
+Description
+Header parameters
+Content-Type
+String
+0
+application/json
+Body Parameters
+code
+String
+1
+MinLen: 20
+MaxLen: 20
+The veriﬁcation code
+that is sent to the
+registered mail.
+Sample Request
+{
+"code"
+: "string"
+}
+©
+National Bank of Cambodia - 2021
+7
+--- Page 9 ---
+2.3. Response
+Response Parameters
+Parameter
+Type
+Mandatory
+Description
+data
+1
+token
+String
+1
+errorCode
+Int
+1
+Error code.
+responseCode
+Int
+1
+Response code success or fail.
+responseMessage
+String
+1
+The request result message.
+Sample Response
+{
+"data"
+: {
+"token"
+:
+"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjUxMTE1NDgsImlhdCI6MTYxNzA
+3NjM0OCwiZGF0YSI6eyJpZCI6ImQ0MDczMWQzZGM3YjRlMSJ9fQ.aPZFsTYT4oh2T5XAG
+cwobiDEJJF1wqqEoLkIDvq-hsM"
+},
+"errorCode"
+: null,
+"responseCode"
+: 0,
+"responseMessage"
+: "Token has been issued"
+}
+©
+National Bank of Cambodia - 2021
+8
+--- Page 10 ---
+3. Renew Token
+3.1. API Speciﬁcations
+HTTP Method
+POST
+Name
+Renew token
+Endpoint
+{{baseUrl}}/v1/renew_token
+Description
+This api is used to renew a token when the previous one
+expires.
+3.2. Request
+Request Parameters
+Parameter
+Type
+Mandatory
+Constraint
+Description
+Header parameters
+Content-Type
+String
+0
+application/json
+Body Parameters
+email
+String
+1
+MaxLen: 30
+Sample Request
+{
+"email"
+: "string"
+}
+©
+National Bank of Cambodia - 2021
+9
+--- Page 11 ---
+3.3. Response
+Response Parameters
+Parameter
+Type
+Mandatory
+Description
+data
+1
+token
+String
+1
+errorCode
+Int
+1
+Error code.
+responseCode
+Int
+1
+Response code success or fail.
+responseMessage
+String
+1
+The request result message.
+Sample Response
+{
+"data"
+: {
+"token"
+:
+"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjUxMTE1NjIsImlhdCI6MTYxNzA3
+NjM2MiwiZGF0YSI6eyJpZCI6ImQ0MDczMWQzZGM3YjRlMSJ9fQ.IlDTDt_3qyxyHmBWRhVe
+_6CELt9gNAOxu_8hb5Ct1Wo"
+},
+"errorCode"
+: null,
+"responseCode"
+: 0,
+"responseMessage"
+: "Token has been issued"
+}
+©
+National Bank of Cambodia - 2021
+10
+--- Page 12 ---
+4. Generate Deeplink
+4.1. API Speciﬁcations
+HTTP Method
+POST
+Name
+Generate deeplink
+Endpoint
+{{baseUrl}}/v1/generate_deeplink_by_qr
+Description
+This api is used to generate deeplink url.
+4.2. Request
+Request Parameters
+Parameter
+Type
+Mandatory
+Constraint
+Description
+Header parameters
+Content-Type
+String
+0
+application/json
+Body Parameters
+qr
+String
+1
+sourceInfo
+0
+appIconUrl
+1
+Your app icon
+appName
+1
+Your app name
+appDeepLinkCallback
+1
+Deeplink url for
+opening your app
+after payment is
+completed.
+©
+National Bank of Cambodia - 2021
+11
+--- Page 13 ---
+Sample Request
+{
+"qr"
+:
+"00020101021229190015gg_hh_1980@amkb52045999530384054031685802KH5905Gg
++H h6010Phnom+Penh62100806#hello630498B8",
+"sourceInfo"
+: {
+"appIconUrl"
+: "
+https://bakong.nbc.org.kh/images/logo.svg
+",
+"appName"
+: "Bakong",
+"appDeepLinkCallback"
+: "https://bakong.nbc.org.kh/"
+}
+}
+4.3. Response
+Response Parameters
+Parameter
+Type
+Mandatory
+Description
+errorCode
+Int
+1
+Error code.
+responseCode
+Int
+1
+Response code success or fail.
+responseMessage
+String
+1
+The request result message.
+data
+1
+shortLink
+String
+1
+Generated short links will
+be different  every time api
+is called and also depend
+on which api url is being
+used.
+Sample Response
+{
+"data"
+: {
+"shortLink"
+: "
+https://bakongsit.page.link/dGZAr1McBs1UaNmH9
+"},
+"errorCode"
+: null,
+"responseCode"
+: 0,
+"responseMessage"
+: "Getting deep link successfully"}
+©
+National Bank of Cambodia - 2021
+12
+--- Page 14 ---
+5. Check Transaction Status by  MD5
+5.1. API Speciﬁcations
+HTTP Method
+POST
+Name
+Check transaction by md5
+Endpoint
+{baseUrl}}/v1/check_transaction_by_md5
+Description
+This api is used to check transaction status by md5.
+5.2. Request
+Request Parameters
+Parameter
+Type
+Mandatory
+Constraint
+Description
+Header parameters
+Authorization
+String
+1
+“Bearer <access
+token>”
+Content-Type
+String
+1
+“application/json”
+Body Parameters
+md5 String 1 MinLen: 1
+MaxLen: 255
+md5 hash got
+from QR string
+encryption.
+Sample Request
+{
+"md5"
+: "d60f3db96913029a2af979a1662c1e72"
+}
+5.3. Response
+Response Parameters
+©
+National Bank of Cambodia - 2021
+13
+--- Page 15 ---
+Parameter
+Type
+Mandatory
+Description
+data
+1
+hash
+String
+1
+Transaction hash.
+fromAccountId
+String
+1
+toAccountId
+String
+1
+currency
+String
+1
+Transaction currency.
+amount
+String
+1
+Transaction amount.
+description
+String
+0
+responseCode
+Int
+1
+Error code.
+responseMessage
+Int
+1
+Response code success or fail.
+Sample Response
+Success
+{
+"responseCode"
+: 0,
+"responseMessage"
+: "Getting transaction successfully.",
+"data"
+: {
+"hash"
+:
+"8465d722d7d5065f2886f0a474a4d34dc6a7855355b611836f7b6111228893e9",
+"fromAccountId"
+: "rieu_dhqj_1984@devb",
+"toAccountId"
+: "bridge_account@devb",
+"currency"
+: "USD",
+"amount"
+: 1.0,
+"description"
+: "testing bakong generator"
+}
+}
+©
+National Bank of Cambodia - 2021
+14

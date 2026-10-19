@@ -1,0 +1,21 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dragonScale" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0 15 Q15 0 30 15 Q15 30 0 15 Z" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.3"/>
+      <path d="M15 0 Q30 15 15 30" fill="none" stroke="#FFFFFF" stroke-width="0.35" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="dragonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#dragonScale)"/>
+  <!-- Central Dragon Crest Silhouette & Geometric Rings -->
+  <circle cx="200" cy="125" r="70" fill="none" stroke="#FFFFFF" stroke-width="0.75" opacity="0.4"/>
+  <circle cx="200" cy="125" r="55" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.35"/>
+  <circle cx="200" cy="125" r="35" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.3"/>
+  <!-- Asian Dragon Cloud Wave Motifs -->
+  <path d="M70 125 C100 80 150 170 200 125 C250 80 300 170 330 125" fill="none" stroke="url(#dragonGrad)" stroke-width="1.5" opacity="0.4"/>
+  <path d="M60 145 C110 100 160 190 200 145 C240 100 290 190 340 145" fill="none" stroke="url(#dragonGrad)" stroke-width="1.0" opacity="0.25"/>
+</svg>

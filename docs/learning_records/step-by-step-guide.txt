@@ -1,0 +1,34 @@
+# STEP-BY-STEP DEPLOYMENT & BANKNOTE TESTING GUIDE
+
+This guide establishes the standardized testing protocol for the local deployment and banknote integration.
+
+## 1. Asset & Banknote Verification
+- Verify presence of Banknote Guilloche Watermark in `public/backgrounds/cardbanknote.svg`.
+- Verify presence of responsive vector backgrounds: `card-dragon.svg` and `card-liberty.svg`.
+- Verify that heavy fixed-resolution PNG card backgrounds are removed in favor of responsive vector SVGs.
+- Ensure CSS selector `.skeuo-card-banknote` correctly maps to `url("/backgrounds/cardbanknote.svg")` with `mix-blend-mode: overlay` and `background-size: cover`.
+
+## 2. Compilation & Build Tests
+- Compile TypeScript SDK bundle: `npm run build:sdk` (`tsc -p tsconfig.sdk.json`).
+- Verify standard types emit to `dist/sdk/index.d.ts` and `dist/sdk/index.js`.
+- Execute Next.js production build: `npm run build`.
+- Verify all pages compile statically and server routes bundle with 0 errors.
+
+## 3. Unit & Integration Testing
+- Execute Vitest test runner: `npm test` (`vitest run`).
+- Validate EMVCo Tag 29 (Individual) and Tag 30 (Merchant) generation.
+- Validate CRC16-CCITT and MD5 checksum consistency against `BakongKHQR`.
+
+## 4. Local Deployment Server Testing
+- Start local production server on port 3000 (or ephemeral port): `npm start` / `next start`.
+- Issue HTTP requests to:
+  - `/` (Home page 200 OK)
+  - `/backgrounds/cardbanknote.svg` (SVG Banknote asset 200 OK with correct SVG MIME type)
+  - `/backgrounds/card-dragon.svg` (SVG Dragon asset 200 OK)
+  - `/backgrounds/card-liberty.svg` (SVG Liberty asset 200 OK)
+  - `/api/health` or dynamic routes.
+- Validate that the rendered HTML contains the `.skeuo-card-banknote` element.
+
+## 5. Preservation of Business Logic
+- Maintain all existing QR generation, transaction checking, and audio feedback logic.
+- Ensure zero breaking changes across public API and component props.

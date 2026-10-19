@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+/coverage
+
+# Next.js Build Outputs
+/.next/
+/out/
+build/
+dist/
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc & Environment
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env*.local
+
+# Heavy Media & Binary Assets (Strict Rule Exclusion)
+*.mov
+*.mp4
+*.pptx
+*.ppt
+*.zip
+*.pdf
+*.docx
+*.wav
+*.mp3
+*.ogg
+*.aac
+*.db
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo

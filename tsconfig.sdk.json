@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "./dist",
+    "module": "esnext",
+    "moduleResolution": "bundler"
+  },
+  "include": [
+    "src/sdk/**/*",
+    "src/lib/khqr.ts",
+    "src/types/**/*"
+  ],
+  "exclude": [
+    "src/app/**/*",
+    "src/components/**/*",
+    "test/**/*",
+    "node_modules"
+  ]
+}

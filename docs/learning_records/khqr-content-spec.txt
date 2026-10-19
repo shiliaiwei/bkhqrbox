@@ -1,0 +1,314 @@
+--- Page 1 ---
+Bakong as a payment switch
+Merchant - Presented v 1.4
+Leng Sereywath
+A single QR Code for receiving payment from any mobile banking apps
+November 2020
+National Bank of Cambodia
+--- Page 2 ---
+of Content
+What is KHQR?
+01
+1
+2
+3
+4
+10
+Benefts of KHQR
+02
+How it works
+03
+How to implement
+04
+FAQs
+05
+--- Page 3 ---
+What is KHQR?
+The standardization of KHQR code speciﬁcation will help prOMOte wider use of MOBILE 
+retail PAYMENTS in CAMBODIA and provide consistent user experience for MERchants 
+and CONSUMERs. It can enable interoperability in the PAYMENT industry. A COMMON QR 
+code would facilitate PAYMENTS AMONG different SCHEMES, e-wallets and banks and 
+would encourage SMALL MERchants to adopt KHQR code as PAYMENT MEthod.
+
+KHQR is created for Retail PAYMENT in CAMBODIA and cross-border PAYMENT within 
+ASEAN countries. It only requires a single QR for receiving PAYMENT frOM any MOBILE 
+apps including Bakong App, MAKING QR PAYMENT SIMPLE for both cusTOMERs and 
+MERchants in CAMBODIA. For MORe detail spec please refer to Prakas KHQR Code 
+Speciﬁcation in CAMBODIA. This DOCUMENT will guide you through on how to IMPLE- 
+MENT KHQR by using Bakong PAYMENT Network as PAYMENT Switch.
+--- Page 4 ---
+of KHQR
+No more confusion with multiple QR codes stand when making payment. 
+Simply look out for the KHQR label.
+
+Using your own favourite app including Bakong App to make payment 
+anywhere that has a KHQR label.
+For customers
+Saving Space for your counter. Only need to display a single KHQR stand 
+instead of multiple QR labels.
+
+Simple, fast, and secure payment solution.
+
+Can accept payment from anyone and any bank app. No need to sign bilateral 
+contracts with many acquirers anymore.
+For merchants
+--- Page 5 ---
+it works
+Bakong user Merchant Merchant’s Bank
+KHQR embbed
+Scan KHQR
+1
+1
+Send Payment Instruction
+User scan KHQR via Bankong App
+2 User Confrms Payment
+3 Process Payment
+2
+Send Push Notifcation
+3
+Bank user Merchant Merchant’s Bank
+Sender’s Bank
+KHQR embbed
+Scan KHQR
+1
+in Mobile Banking App
+2
+instruction to receive
+3
+Instruction
+4
+Send Push Notifcation
+5
+1 Bank Customer Scans KHQR
+Bank Customer Confrms Payment in Mobile Banking App2
+3 Sender Bank Forwards Payment Instruction
+4 Receive Payment Instruction
+5 Process Payment Instruction, Notify
+KHQR Pyament via Bakong Mobile App
+KHQR Pyament via Mobile Banking App
+--- Page 6 ---
+to implement
+This QR code can be generated via Bakong Mobile/Desktop app with Receive 
+Function or by using Bakong page: www.bakong.nbc.org.kh . FIs can also use the 
+API as presented detail in this link: KHQR API specification
+How to generate KHQR Label
+KHQR Tag 29
+Solo merchant or Individual
+Prerequisite
+Static KHQR Example
+QR Code with tag 29 as a solo merchant with static KHQR
+CRC Cyclic Redundancy Check
+MCC Merchant Category Codes
+KHQR endorser must have KHQR settlement account as Bakong desktop 
+wallet where you can create via Bakong Desktop app.
+
+Update QR label by follow Prakas specification of KHQR as prepared and 
+accepted by ABC as in Prakas in this document: KHQR for Payment in 
+Cambodia
+
+Accept T&C to use Bakong as a payment switch for KHQR especially fee 
+sharing which is stated in Bakong Rule & Procedure (BRP).
+
+Developers shall check and test if the acquirer system can generate QR Code 
+compliant with KHQR Specification, or parse KHQR Code from Bakong App.
+
+--- Page 7 ---
+QR Code Convention
+Payload format indicator “000201” Version 1
+CRC “6304102F” Checksum
+Point of Initiation Method “010211” Unique QR Code is shown for each 
+consumer or Static QR Code
+Additional Merchant Account Information
+MCC “52045999” Miscellaneous and speciality retail outlets
+Merchant Name “5917Lucky Supermarket” Lucky Supermarket
+Merchant City
+Timestamp
+“6010Phnom Penh”
+“991700131633921024778”
+Phnom Penh
+131633921024778 is timestamp 
+in milisecond
+Country Code “5802KH” Cambodia
+Transaction Value
+** Understanding the code
+ “5303116” di vided into 3 parts “53” ,  “03” ,  “116” wherea 
+ First part (53 ) is the tag I
+ Second part (03 ) is the len gth of data of the third part (116 has 3 di gits
+ Third part (116 ) is the data
+Transaction A mount 0 or Prompt for input
+Transaction Currency “5303116” KHR
+Merchant Account Information
+Gobally Unique Indentifer “2920”
+Gobally Unique Indentifer “0016test _bakong@de vb” Global Unique Identiﬁer = test _bakong@de vb 
+is Bakong account
+--- Page 8 ---
+Dynamic KHQR Example
+QR Code with tag 29 as a solo merchant with dynamic KHQR
+** Note for checksum
+ In order to get the checksum value or CRC, get the value of the code except last 4 digits computed 
+with CRC algorithm to get the 4 digits value.
+Additional Merchant Account Information
+MCC “52045999” Miscellaneous and speciality retail outlets
+Merchant Name “5917Lucky Supermarket” Lucky Supermarket
+Merchant City
+Timestamp
+“6010Phnom Penh”
+“991700131633923455582”
+Phnom Penh
+131633923455582 is timestamp 
+in milisecond
+Country Code “5802KH” Cambodia
+QR Code Convention
+Payload format indicator “000201” Version 1
+CRC “6304D1EB” Checksum
+Point of Initiation Method “010212” Dynamic QR Code
+Merchant Account Information
+Gobally U ni que Indentifer “2920”
+Gobally U ni que Indentifer “0016test _bakong@devb” Global U ni que Identiﬁer = test _bakong@devb 
+is Bakong account
+--- Page 9 ---
+Remittance KHQR
+Static KHQR Example
+QR Code with tag 29 as a remittance KHQR with static KHQR 
+QR Code Convention
+Payload format indicator “000201” Version 1
+CRC “6304F256” Checksum
+Point of Initiation Method “010211” Static QR Code
+Account Information
+Gobally Unique Indentifer “2946”
+“0009khqr@devb”Gobally Unique Indentifer Global Unique Identiﬁer = khqr@devb
+is Bakong account.
+This KHQR generates for re mittance transaction ,  there is a mu s t follo w the KHQR 
+speciﬁcation. A fter o wning the deskto p account for e x ample:  “khqr@devb ”
+(KHQR desktop account ), the content of QR Code shall be generate si milar to this :
+T ransaction V alue
+T ransaction Amount Amount 1000
+T ransaction Currency “5303116”
+“54041000”
+KHR
+A ccount Infor mation “0112000000001021” A ccount Info = 000000001021 is account 
+number
+A cquiring Bank “020 8Dev Bank” Dev Bank
+--- Page 10 ---
+This KHQR generates for corporate merchant, there is a must follow the KHQR 
+speciﬁcation. After owning the desktop account for example: “khqr@devb” , the 
+content of the QR Code shall be generate similar to this:
+KHQR Tag 30
+Transaction Value
+Transaction Amount 0 or Prompt for input
+Transaction Currency “5303116” KHR
+QR Code Convention
+Payload format indicator “000201” Version 1
+Point of Initiation Method “010212” Dynamic QR Code
+Dynamic KHQR Example
+QR Code with tag 30 as a corporate merchant with dynamic KHQR
+Merchant City
+Timestamp
+“6010Phnom Penh”
+“991700131675223676621”
+Phnom Penh
+1675223676621 is timestamp 
+in milisecond
+Merchant Name “5910 Jonh Smith” Jonh Smith
+Country Code “ 58 02KH” Cambodia
+A dditional A ccount Inf ormation
+MCC “520 45999” Miscellaneous and speciality retail outlets
+--- Page 11 ---
+Additional Merchant Account Information
+MCC “52045999” Miscellaneous and speciality retail outlets
+Merchant Name
+Merchant ID
+Acquiring Bank
+“5914Coffee Khlaing”
+“0109013345168”
+“0208Dev Bank”
+Coffee Khlaing
+013345168 is merchant ID 
+Dev Bank
+Merchant City
+Timestamp
+“6010Phnom Penh”
+“991700131675224319881”
+Phnom Penh
+1675224319881 is timestamp 
+in milisecond
+Country Code “5802KH” Cambodia
+Transaction Value
+Transaction Amount Amount 10 . 0
+Transaction Currency “5303840”
+“540410 . 0”
+USD
+Additional Data F ield Tem plate
+Additional Field Template “6233”
+S tore Label “0310 NBC Sen Sok ” NBC Sen Sok
+Terminal Label “0708 Number 2” Number 2 is terminal la bel
+Merchant Account Information
+Gobally U ni que Indentifer “3045”
+Gobally Unique Indenti f er “0009 khqr@de vb ” Global U ni que Identiﬁer = khqr@de vb
+is Bak ong account .
+CR C “6304846A” Checksum
+--- Page 12 ---
+KHQR Embbed Data (Tag)
+30 00 Unique ID of payment merchant@BankA
+01 Merchant ID 000340241
+02 Acquiring Bank BankA
+52 Merchant Category Code 5999
+53 Transaction CCY code 999
+58 CCY code KH
+59 Merchant Name Sosoro
+60 Merchant City Phnom Penh
+62 Additional Data Field
+Bill Number 0978773121
+02
+01
+Mobile Number 093524545
+03 Store Label T000001
+07 Terminal Number T000001
+Bank user Merchant Merchant’s Bank
+Sender’s Bank
+KHQR embbed
+Scan KHQR
+1
+in Mobile Banking App
+2
+instruction to receive
+3
+Instruction
+4
+Send P ush Notif cation
+5
+Wh at t o d o with FI’s Mo bil e App?
+1 Bank C ustomer Scans KHQR
+Bank C ustomer C on frms P ayment in Mobile Banking App2
+3 Sender Bank F or w ards P ay ment Instruction
+4 Receive P ayment Instruction
+5 P rocess P ay ment Instruction , Notify
+--- Page 13 ---
+KHQR team of Association of Bank in Cambodia
+Bakong team of National Bank of Cambodia
+Remittance KHQR is the QR that contain information as below
+Use tag 29
+Global Unique Identifier in tag 00 is desktop wallet
+Has customer account information in sub tag 01 (account number or phone number).
+Solo merchant/Individual KHQR is the QR that contain information as below
+Use tag 29
+Global Unique Identifier in tag 00 is customer Bakong account Id
+No customer information in sub tag 01.
+Corporate merchant  KHQR is the QR that contain information as below
+Use tag 30
+Global Unique Identifier in tag 00 is desktop wallet
+Has merchant information in sub tag 01 (merchant id or merchant account number).
+asked questions (FAQs)
+If my bank wants to know more or inquire about KHQR, 
+who should I talk to?
+1.
+If my bank wants to know more or inquire about How To 
+Implement KHQR By Using Bakong As a Payment Switch, 
+who should I talk to?
+2.
+How to identify remittance KHQR?3.
+How to identify solo merchant / indi vidual KHQR?4.
+How to identify corporate merchant KHQR?5.
+--- Page 14 ---
+End of Document
+©2020 National Bank of Cambodia
