@@ -17,11 +17,15 @@
       "default": "./dist/sdk/index.js"
     }
   },
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node ./scripts/build.js",
+    "build:next": "next build",
+    "build:worker": "node ./scripts/build.js",
     "build:sdk": "tsc -p tsconfig.sdk.json",
-    "build:all": "npm run build:sdk && npm run build",
+    "build:all": "npm run build:sdk && npm run build:next",
+    "deploy": "wrangler deploy",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check": "tsc --noEmit",
@@ -46,12 +50,14 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "1.20.12",
     "@types/node": "^20.17.0",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "bakong-khqr": "^1.0.20",
     "typescript": "^5.7.2",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.11",
+    "wrangler": "4.151.2"
   }
 }

@@ -46,3 +46,11 @@ yarn-error.log*
 .vscode/
 *.swp
 *.swo
+
+# Cloudflare & OpenNext
+.open-next/
+.wrangler/
+.wrangler-local/
+*.secret
+credentials.json
+
