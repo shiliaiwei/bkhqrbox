@@ -3244,9 +3244,7 @@ podﬁle
  
 source
  
-"https://sambo-nbc:github_pat_11ASPB6YQ0D6RRw8iIETNw_zQ6WCqBs9RD0KNmfRLF4ig
-Nj7FfIwBL3SAUbpYoobulE5DQXBOBBDReoNcs@github.com/national-bank-of-cambodia/kh
-qr-ios-pod"
+"https://github.com/national-bank-of-cambodia/khqr-ios-pod"
  
  
  
