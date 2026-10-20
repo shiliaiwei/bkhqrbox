@@ -29,6 +29,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check": "tsc --noEmit",
+    "test": "vitest run",
+    "checkpoint": "pnpm run check && pnpm test && pnpm run build",
     "clean": "rm -rf .next dist *.tsbuildinfo"
   },
   "keywords": [
