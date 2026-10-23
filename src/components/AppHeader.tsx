@@ -23,7 +23,7 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
   return (
     <header className="app-header">
       <div className="brand-wrapper">
-        <ShiliaiweiBrand colorScheme="mint" height={28} />
+        <ShiliaiweiBrand colorScheme="obsidian" height={28} />
       </div>
 
       <div className="header-controls">

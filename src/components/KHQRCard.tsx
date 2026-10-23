@@ -86,7 +86,7 @@ export const KHQRCard: React.FC<KHQRCardProps> = ({
             <div className="bakong-official-logo-box">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/resources/khqr-brand/bakong-logo-white.svg"
+                src="/resources/khqr-brand/bakong-logo.svg"
                 alt="National Bank of Cambodia - Bakong"
                 className="bakong-official-logo-img"
               />
