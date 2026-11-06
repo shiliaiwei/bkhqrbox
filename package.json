@@ -46,7 +46,7 @@
   "author": "Soramitsu / KWD",
   "license": "MIT",
   "dependencies": {
-    "next": "^14.2.35",
+    "next": "^15.5.28",
     "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
